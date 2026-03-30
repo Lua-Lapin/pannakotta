@@ -336,3 +336,13 @@ a:focus-visible {
   border: none;
   border-top: 1px dashed var(--color-border);
 }
+
+/* 2期生カード — 世代を背景色で区別（2期生デビュー時に .liver-card に追加） */
+.liver-card--gen2 {
+  background: #fdfbf7;
+  border-color: #ddd5c8;
+}
+
+.liver-card--gen2 .liver-card-icon {
+  background: #ddd5c8;
+}
