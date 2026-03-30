@@ -207,6 +207,7 @@ a:focus-visible {
   background: var(--color-border);
   display: block;
   margin-bottom: 10px;
+  object-fit: cover;
 }
 
 .liver-thumb-name {
@@ -262,6 +263,7 @@ a:focus-visible {
   height: 140px;
   background: var(--color-border);
   flex-shrink: 0;
+  object-fit: cover;
 }
 
 .liver-card-body { flex: 1; }
