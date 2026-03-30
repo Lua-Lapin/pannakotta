@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ぱんなこった — VTuber事務所</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* index.html 固有スタイル */
+    .hero {
+      padding: 80px 48px 64px;
+      text-align: center;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .hero-badge {
+      font-size: 10px;
+      color: var(--color-accent);
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .hero-badge::before, .hero-badge::after { content: " ✦ "; }
+
+    .hero-title {
+      font-family: var(--font-serif);
+      font-size: 56px;
+      color: var(--color-text);
+      line-height: 1.1;
+      margin-bottom: 8px;
+    }
+
+    .hero-title em {
+      font-style: italic;
+      color: var(--color-accent);
+      display: block;
+    }
+
+    .hero-sub {
+      font-size: 12px;
+      color: var(--color-text-muted);
+      letter-spacing: 3px;
+      margin-bottom: 32px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">ぱんな<em>こった</em></a>
+    <ul class="nav-links">
+      <li><a href="#concept">コンセプト</a></li>
+      <li><a href="livers.html">ライバー</a></li>
+      <li><a href="#news">お知らせ</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero bg-stripe">
+    <div class="hero-badge">VTUBER OFFICE</div>
+    <h1 class="hero-title">
+      Pannacotta
+      <em>ぱんなこった</em>
+    </h1>
+    <p class="hero-sub">あまく、やさしく、個性豊かに</p>
+    <a href="livers.html" class="btn">ライバーを見る</a>
+  </section>
+
+  <section class="section" id="concept">
+    <p class="section-label">Concept</p>
+    <h2 class="section-title">ぱんなこったについて</h2>
+    <div class="section-divider"></div>
+    <p style="max-width:520px;margin:0 auto;text-align:center;line-height:2.2;color:var(--color-text-body);font-size:13px;">
+      イタリア生まれのデザートのように、<br>
+      ひとつひとつ丁寧に、個性を大切に。<br>
+      ぱんなこったは、それぞれの「らしさ」を<br>
+      全力で応援するVTuber事務所です。
+    </p>
+  </section>
+
+</body>
+</html>
