@@ -239,10 +239,8 @@ a {
   background: var(--color-bg);
   border: 1px solid var(--color-border);
   padding: 32px;
-  margin-bottom: 24px;
   max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 24px;
 }
 
 .liver-card--reverse { flex-direction: row-reverse; }
@@ -322,7 +320,7 @@ a {
 
 .gen-separator {
   max-width: 720px;
-  margin: 0 auto 52px;
+  margin: 0 auto 0;
   border: none;
   border-top: 1px dashed var(--color-border);
 }
