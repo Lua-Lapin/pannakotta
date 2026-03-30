@@ -10,13 +10,13 @@
 :root {
   --color-bg:        #fffdf9;
   --color-bg-sub:    #f7f3ed;
-  --color-bg-warm:   #f0ece5;
   --color-text:      #3a2a1a;
   --color-text-body: #5a4a3a;
   --color-text-muted:#a08060;
   --color-accent:    #c0392b;
   --color-border:    #e8e0d0;
   --color-footer-bg: #3a2a1a;
+  --color-on-accent: #ffffff;
   --font-serif:      'Playfair Display', 'Noto Serif JP', serif;
   --font-body:       'Noto Serif JP', serif;
 }
@@ -121,6 +121,7 @@ a {
 /* 斜めストライプ背景（ヒーロー・ページヘッダー用） */
 .bg-stripe {
   background-color: var(--color-bg);
+  /* Stripe uses a slightly warmer, very transparent tint — intentionally not --color-border */
   background-image: repeating-linear-gradient(
     45deg,
     transparent,
@@ -148,7 +149,7 @@ a {
 .btn {
   display: inline-block;
   background: var(--color-accent);
-  color: #fff;
+  color: var(--color-on-accent);
   padding: 10px 32px;
   font-family: var(--font-serif);
   font-size: 11px;
@@ -163,6 +164,7 @@ a {
 
 /* タグ */
 .tag {
+  display: inline-block;
   font-size: 10px;
   color: var(--color-accent);
   border: 1px solid var(--color-accent);
