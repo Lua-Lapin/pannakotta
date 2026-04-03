@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お知らせ — ぱんなこった</title>
+  <link rel="stylesheet" href="style.css?v=20260403b">
+  <style>
+    /* news.html 固有スタイル */
+    .page-header {
+      padding: 64px 48px 48px;
+      background: var(--color-bg);
+      border-bottom: 1px solid var(--color-border);
+      text-align: center;
+    }
+
+    .news-section {
+      padding: 56px 48px;
+      background: var(--color-bg);
+    }
+
+    @media (max-width: 600px) {
+      .page-header {
+        padding: 48px 20px 40px;
+      }
+      .news-section {
+        padding: 48px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">ぱんな<em>こった</em></a>
+    <ul class="nav-links">
+      <li><a href="index.html#concept">コンセプト</a></li>
+      <li><a href="livers.html">ライバー</a></li>
+      <li><a href="news.html">お知らせ</a></li>
+      <li><a href="recruit.html">新人募集</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="page-header">
+      <p class="section-label">News</p>
+      <h1 class="section-title">お知らせ</h1>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="news-section">
+      <div id="news-list"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <strong>ぱんなこった</strong>&nbsp;|&nbsp;© 2026 Pannacotta All Rights Reserved.
+  </footer>
+
+  <script src="news.js"></script>
+  <script>renderNews("news-list");</script>
+
+</body>
+</html>
