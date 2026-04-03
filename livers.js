@@ -103,7 +103,7 @@ const LIVERS = [
     name: "五臓六腑",
     nameEn: "GOZOROPPU",
     img: "img/roppu.png",
-    greeting: "「君のいいねころちゃんの一部にしちゃうぞ」",
+    greeting: "「君のいいね、ころちゃんの一部にしちゃうぞ」",
     links: {
       twitter: "",
       reality: "https://reality.app/profile/17d13ff1?adj_t=8ogcewh_z9yhix5"
@@ -119,13 +119,36 @@ const LIVERS = [
       twitter: "",
       reality: "https://reality.app/profile/9108e6f4?adj_t=8ogcewh_z9yhix5"
     }
+  },
+  {
+    gen: 4,
+    name: "花筏 竜胆",
+    nameEn: "HANAIKADA RINDOU",
+    img: "img/rindou.png",
+    greeting: "「りーん、りん！君のいいね筏で運ぶね！」",
+    links: {
+      twitter: "",
+      reality: "https://reality.app/profile/c1857de2?adj_t=8ogcewh_z9yhix5"
+    }
+  },
+  {
+    gen: 4,
+    name: "さとう",
+    nameEn: "SATO",
+    img: "img/sato.png",
+    greeting: "「いいねありがとう！そのいいね誤タップでねえが？」",
+    links: {
+      twitter: "",
+      reality: "https://reality.app/profile/8dac3cf7?adj_t=8ogcewh_z9yhix5"
+    }
   }
 ];
 
 const GEN_META = {
   1: { title: "1期生", sub: "1st Generation" },
   2: { title: "2期生", sub: "2nd Generation" },
-  3: { title: "3期生", sub: "3rd Generation" }
+  3: { title: "3期生", sub: "3rd Generation" },
+  4: { title: "4期生", sub: "4th Generation" }
 };
 
 function buildSocialLinks(links) {
@@ -170,7 +193,7 @@ function renderLivers() {
     groups[liver.gen].push(liver);
   });
 
-  const allGens = [1, 2, 3];
+  const allGens = [1, 2, 3, 4];
   let html = "";
 
   allGens.forEach((gen, sectionIndex) => {
