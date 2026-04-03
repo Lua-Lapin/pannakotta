@@ -270,12 +270,10 @@ a:focus-visible {
 .liver-card-body {
   flex: 1;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 12px;
+  flex-direction: column;
 }
 
-.liver-card-name-group { flex: 1; min-width: 0; }
+.liver-card-name-group { min-width: 0; }
 
 .liver-card-name {
   font-family: var(--font-serif);
@@ -416,6 +414,15 @@ a:focus-visible {
     column-gap: 16px;
     row-gap: 12px;
   }
+
+  .liver-card-body {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .liver-card-name-group { flex: 1; }
 
   .liver-card--reverse {
     flex-direction: row;
