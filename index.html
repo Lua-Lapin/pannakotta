@@ -51,7 +51,7 @@
     <ul class="nav-links">
       <li><a href="#concept">コンセプト</a></li>
       <li><a href="livers.html">ライバー</a></li>
-      <li><a href="#news">お知らせ</a></li>
+      <li><a href="news.html">お知らせ</a></li>
       <li><a href="recruit.html">新人募集</a></li>
     </ul>
   </nav>
@@ -106,28 +106,10 @@
     <p class="section-label">News</p>
     <h2 class="section-title">お知らせ</h2>
     <div class="section-divider"></div>
-    <div class="news-list">
-      <div class="news-item">
-        <span class="news-date">2026.04.02</span>
-        <span class="news-text">3期生メンバーを公開しました</span>
-      </div>
-      <div class="news-item">
-        <span class="news-date">2026.04.01</span>
-        <span class="news-text">2期生メンバーを公開しました</span>
-      </div>
-      <div class="news-item">
-        <span class="news-date">2026.03.30</span>
-        <span class="news-text">ぱんなこった公式サイトをオープンしました</span>
-      </div>
-      <div class="news-item">
-        <span class="news-date">2026.03.20</span>
-        <span class="news-text">1期生メンバーを公開しました</span>
-      </div>
-      <div class="news-item">
-        <span class="news-date">2026.03.01</span>
-        <span class="news-text">VTuber事務所「ぱんなこった」設立</span>
-      </div>
-    </div>
+    <div id="news-list"></div>
+    <p style="text-align:center;margin-top:20px;">
+      <a href="news.html" class="text-link">すべてのお知らせを見る →</a>
+    </p>
   </section>
 
   <section class="section section--sub" id="recruit">
@@ -148,6 +130,9 @@
   <footer class="footer">
     <strong>ぱんなこった</strong>&nbsp;|&nbsp;© 2026 Pannacotta All Rights Reserved.
   </footer>
+
+  <script src="news.js"></script>
+  <script>renderNews("news-list", 5);</script>
 
 </body>
 </html>
