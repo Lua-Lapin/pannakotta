@@ -72,7 +72,7 @@ const LIVERS = [
     img: "img/rin.png",
     greeting: "「私と素敵な物語作ろうね」",
     links: {
-      twitter: "",
+      twitter: "https://x.com/riniine",
       reality: "https://reality.app/profile/21100160?adj_t=8ogcewh_z9yhix5"
     }
   },
