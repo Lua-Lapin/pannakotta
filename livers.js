@@ -40,7 +40,7 @@ const LIVERS = [
     greeting: "「あなたのいいね、特別なアロマに調合しとくね」",
     links: {
       twitter: "",
-      reality: ""
+      reality: "https://reality.app/profile/204e6e74?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
@@ -51,7 +51,7 @@ const LIVERS = [
     greeting: "「君のいいねで雪が積もるよ」",
     links: {
       twitter: "",
-      reality: ""
+      reality: "https://reality.app/profile/168eb0d5?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
@@ -62,7 +62,7 @@ const LIVERS = [
     greeting: "「あなたに藤のご加護がありますように」",
     links: {
       twitter: "",
-      reality: ""
+      reality: "https://reality.app/profile/b6cb2e54?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
@@ -73,7 +73,7 @@ const LIVERS = [
     greeting: "「私と素敵な物語作ろうね」",
     links: {
       twitter: "",
-      reality: ""
+      reality: "https://reality.app/profile/21100160?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
@@ -84,7 +84,7 @@ const LIVERS = [
     greeting: "「君のいいねにメロついちゃうぞ」",
     links: {
       twitter: "",
-      reality: ""
+      reality: "https://reality.app/profile/b1210d80?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
@@ -95,7 +95,7 @@ const LIVERS = [
     greeting: "「お茶と一緒にいただきまーす」",
     links: {
       twitter: "",
-      reality: ""
+      reality: "https://reality.app/profile/2a226c35?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
@@ -106,7 +106,7 @@ const LIVERS = [
     greeting: "「君のいいねころちゃんの一部にしちゃうぞ」",
     links: {
       twitter: "",
-      reality: ""
+      reality: "https://reality.app/profile/17d13ff1?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
@@ -117,7 +117,7 @@ const LIVERS = [
     greeting: "",
     links: {
       twitter: "",
-      reality: ""
+      reality: "https://reality.app/profile/9108e6f4?adj_t=8ogcewh_z9yhix5"
     }
   }
 ];
