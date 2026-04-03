@@ -39,7 +39,7 @@ const LIVERS = [
     img: "img/kotoha.png",
     greeting: "「あなたのいいね、特別なアロマに調合しとくね」",
     links: {
-      twitter: "",
+      twitter: "https://x.com/Y_Kotoha321",
       reality: "https://reality.app/profile/204e6e74?adj_t=8ogcewh_z9yhix5"
     }
   },
@@ -83,7 +83,7 @@ const LIVERS = [
     img: "img/kohaku.png",
     greeting: "「君のいいねにメロついちゃうぞ」",
     links: {
-      twitter: "",
+      twitter: "https://x.com/hakutooooooooou",
       reality: "https://reality.app/profile/b1210d80?adj_t=8ogcewh_z9yhix5"
     }
   },
@@ -105,7 +105,7 @@ const LIVERS = [
     img: "img/roppu.png",
     greeting: "「君のいいね、ころちゃんの一部にしちゃうぞ」",
     links: {
-      twitter: "",
+      twitter: "https://x.com/axkhq6",
       reality: "https://reality.app/profile/17d13ff1?adj_t=8ogcewh_z9yhix5"
     }
   },
@@ -116,7 +116,7 @@ const LIVERS = [
     img: "img/umaru.png",
     greeting: "",
     links: {
-      twitter: "",
+      twitter: "https://x.com/niyyamu",
       reality: "https://reality.app/profile/9108e6f4?adj_t=8ogcewh_z9yhix5"
     }
   },
@@ -127,7 +127,7 @@ const LIVERS = [
     img: "img/rindou.png",
     greeting: "「りーん、りん！君のいいね筏で運ぶね！」",
     links: {
-      twitter: "",
+      twitter: "https://x.com/871kada_rindo",
       reality: "https://reality.app/profile/c1857de2?adj_t=8ogcewh_z9yhix5"
     }
   },
@@ -138,7 +138,7 @@ const LIVERS = [
     img: "img/sato.png",
     greeting: "「いいねありがとう！そのいいね誤タップでねえが？」",
     links: {
-      twitter: "",
+      twitter: "https://x.com/bibasato0712",
       reality: "https://reality.app/profile/8dac3cf7?adj_t=8ogcewh_z9yhix5"
     }
   }
