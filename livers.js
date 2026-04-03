@@ -141,6 +141,17 @@ const LIVERS = [
       twitter: "https://x.com/bibasato0712",
       reality: "https://reality.app/profile/8dac3cf7?adj_t=8ogcewh_z9yhix5"
     }
+  },
+  {
+    gen: 4,
+    name: "夜廻 葉理",
+    nameEn: "YOMAWARI RAMINA",
+    img: "img/ramina.png",
+    greeting: "「貴方のいいねが私の励みになります！」",
+    links: {
+      twitter: "https://x.com/canazawa0717",
+      reality: "https://reality.app/profile/8ab45997?adj_t=8ogcewh_z9yhix5"
+    }
   }
 ];
 
