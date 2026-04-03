@@ -267,7 +267,15 @@ a:focus-visible {
   object-fit: cover;
 }
 
-.liver-card-body { flex: 1; }
+.liver-card-body {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.liver-card-name-group { flex: 1; min-width: 0; }
 
 .liver-card-name {
   font-family: var(--font-serif);
@@ -416,9 +424,5 @@ a:focus-visible {
   .liver-card-icon {
     width: 80px;
     height: 80px;
-  }
-
-  .liver-card-links {
-    justify-content: center;
   }
 }
