@@ -301,10 +301,27 @@ a:focus-visible {
   margin-bottom: 16px;
 }
 
-.liver-card-tags {
+.liver-card-links {
   display: flex;
   gap: 8px;
-  flex-wrap: wrap;
+}
+
+.liver-social-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  flex-shrink: 0;
+}
+
+.liver-social-btn:hover {
+  opacity: 0.75;
 }
 
 /* 期生セクション */
@@ -401,7 +418,7 @@ a:focus-visible {
     height: 80px;
   }
 
-  .liver-card-tags {
+  .liver-card-links {
     justify-content: center;
   }
 }
