@@ -150,8 +150,10 @@ function buildCard(liver) {
     <article class="liver-card${gen2Class}">
       <img class="liver-card-icon" src="${liver.img}" alt="${liver.name}">
       <div class="liver-card-body">
-        <h3 class="liver-card-name">${liver.name}</h3>
-        <p class="liver-card-name-en">${liver.nameEn}</p>
+        <div class="liver-card-name-group">
+          <h3 class="liver-card-name">${liver.name}</h3>
+          <p class="liver-card-name-en">${liver.nameEn}</p>
+        </div>
         ${buildSocialLinks(liver.links)}
       </div>
       <p class="liver-card-greeting">${liver.greeting}</p>
