@@ -258,7 +258,6 @@ a:focus-visible {
   margin: 0 auto 24px;
 }
 
-.liver-card--reverse { flex-direction: row-reverse; }
 
 .liver-card-icon {
   width: 140px;
