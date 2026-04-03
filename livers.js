@@ -6,8 +6,8 @@ const LIVERS = [
     img: "img/lun.png",
     greeting: "「あなたのいいねで気分るんるん🎵」",
     links: {
-      twitter: "",
-      reality: ""
+      twitter: "https://x.com/Lun222Lun",
+      reality: "https://reality.app/profile/cce744e4?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
@@ -17,8 +17,8 @@ const LIVERS = [
     img: "img/rihito.png",
     greeting: "「そのいいねでポーション作るね」",
     links: {
-      twitter: "",
-      reality: ""
+      twitter: "https://x.com/ritorito315",
+      reality: "https://reality.app/profile/3684fd87?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
@@ -29,7 +29,7 @@ const LIVERS = [
     greeting: "「君のいいねがちづのこころに刺さったよ」",
     links: {
       twitter: "",
-      reality: ""
+      reality: "https://reality.app/profile/ecfd51e0?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
