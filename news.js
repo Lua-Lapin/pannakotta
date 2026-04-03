@@ -13,10 +13,7 @@ function renderNews(containerId, limit) {
   const items = limit ? NEWS.slice(0, limit) : NEWS;
   let html = '<div class="news-list">';
   items.forEach(function(item) {
-    html += '<div class="news-item">'
-      + '<span class="news-date">' + item.date + '</span>'
-      + '<span class="news-text">' + item.text + '</span>'
-      + '</div>';
+    html += `<div class="news-item"><span class="news-date">${item.date}</span><span class="news-text">${item.text}</span></div>`;
   });
   html += '</div>';
   container.innerHTML = html;
