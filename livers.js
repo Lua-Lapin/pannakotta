@@ -111,10 +111,10 @@ const LIVERS = [
   },
   {
     gen: 3,
-    name: "羽丸 にゃる",
+    name: "羽丸 にゃむ",
     nameEn: "UMARU NYAMU",
     img: "img/umaru.png",
-    greeting: "",
+    greeting: "にくきゅうﾊﾟﾝﾁ🫶🤜",
     links: {
       twitter: "https://x.com/niyyamu",
       reality: "https://reality.app/profile/9108e6f4?adj_t=8ogcewh_z9yhix5"
@@ -152,6 +152,17 @@ const LIVERS = [
       twitter: "https://x.com/canazawa0717",
       reality: "https://reality.app/profile/8ab45997?adj_t=8ogcewh_z9yhix5"
     }
+  },
+  {
+    gen: 99,
+    name: "ユ²",
+    nameEn: "YUYU",
+    img: "img/yuyu.png",
+    greeting: "",
+    links: {
+      twitter: "",
+      reality: "https://reality.app/profile/0fbd49f4?adj_t=8ogcewh_z9yhix5"
+    }
   }
 ];
 
@@ -159,7 +170,8 @@ const GEN_META = {
   1: { title: "1期生", sub: "1st Generation" },
   2: { title: "2期生", sub: "2nd Generation" },
   3: { title: "3期生", sub: "3rd Generation" },
-  4: { title: "4期生", sub: "4th Generation" }
+  4: { title: "4期生", sub: "4th Generation" },
+  99: { title: "研修生", sub: "Pre-debut Generation" }
 };
 
 function buildSocialLinks(links) {
@@ -204,7 +216,7 @@ function renderLivers() {
     groups[liver.gen].push(liver);
   });
 
-  const allGens = [1, 2, 3, 4];
+  const allGens = [1, 2, 3, 4, 99];
   let html = "";
 
   allGens.forEach((gen, sectionIndex) => {
