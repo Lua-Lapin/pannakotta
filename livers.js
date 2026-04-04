@@ -103,7 +103,7 @@ const LIVERS = [
     name: "五臓六腑",
     nameEn: "GOZOROPPU",
     img: "img/roppu.png",
-    greeting: "「君のいいね、ころちゃんの一部にしちゃうぞ」",
+    greeting: "「君のいいね、ごぞちゃんの一部にしちゃうぞ」",
     links: {
       twitter: "https://x.com/axkhq6",
       reality: "https://reality.app/profile/17d13ff1?adj_t=8ogcewh_z9yhix5"
@@ -114,7 +114,7 @@ const LIVERS = [
     name: "羽丸 にゃむ",
     nameEn: "UMARU NYAMU",
     img: "img/umaru.png",
-    greeting: "にくきゅうﾊﾟﾝﾁ🫶🤜",
+    greeting: "「にくきゅうﾊﾟﾝﾁ🫶🤜」",
     links: {
       twitter: "https://x.com/niyyamu",
       reality: "https://reality.app/profile/9108e6f4?adj_t=8ogcewh_z9yhix5"
