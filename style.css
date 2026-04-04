@@ -395,10 +395,14 @@ a:focus-visible {
   transition: background 0.15s;
 }
 
-.liver-icon-cell:hover,
+.liver-icon-cell:hover {
+  background: var(--color-border);
+}
+
 .liver-icon-cell:focus-visible {
   background: var(--color-border);
-  outline: none;
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
 .liver-icon-cell img {
