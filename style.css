@@ -500,4 +500,16 @@ a:focus-visible {
   .footer {
     padding: 28px 20px;
   }
+
+  .gen-header {
+    padding: 24px 20px 0;
+  }
+
+  .gen-title {
+    font-size: 16px;
+  }
+
+  .gen-separator {
+    margin: 0 20px;
+  }
 }
