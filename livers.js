@@ -166,20 +166,14 @@ const LIVERS = [
   }
 ];
 
-const GEN_META = {
-  1: { title: "1期生", sub: "1st Generation" },
-  2: { title: "2期生", sub: "2nd Generation" },
-  3: { title: "3期生", sub: "3rd Generation" },
-  4: { title: "4期生", sub: "4th Generation" },
-  99: { title: "研修生", sub: "Pre-debut Generation" }
-};
-
 function buildSocialLinks(links) {
   if (!links) return "";
   const hasTwitter = links.twitter;
   const hasReality = links.reality;
   if (!hasTwitter && !hasReality) return "";
   let html = '<div class="liver-card-links">';
+  // Note: links.twitter and links.reality are hardcoded literals in LIVERS — not user input.
+  // If LIVERS is ever loaded from an external source, sanitize these values first.
   if (hasTwitter) {
     html += `<a class="liver-social-btn" href="${links.twitter}" target="_blank" rel="noopener noreferrer" title="X (Twitter)" aria-label="X (Twitter)"><i data-lucide="x" width="15" height="15"></i></a>`;
   }
@@ -198,10 +192,10 @@ function renderLivers() {
   const overlay = document.createElement("div");
   overlay.className = "liver-modal-overlay hidden";
   overlay.innerHTML = `
-    <div class="liver-modal" role="dialog" aria-modal="true">
+    <div class="liver-modal" role="dialog" aria-modal="true" aria-labelledby="liver-modal-name-heading">
       <button class="liver-modal-close" aria-label="閉じる">×</button>
-      <img class="liver-modal-icon" src="" alt="">
-      <h3 class="liver-modal-name"></h3>
+      <img class="liver-modal-icon" alt="">
+      <h3 class="liver-modal-name" id="liver-modal-name-heading"></h3>
       <p class="liver-modal-name-en"></p>
       <p class="liver-modal-greeting"></p>
       <div class="liver-modal-links"></div>
