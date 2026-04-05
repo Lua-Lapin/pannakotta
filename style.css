@@ -466,7 +466,6 @@ a:focus-visible {
   font-size: 10px;
   color: var(--color-accent);
   letter-spacing: 4px;
-  text-transform: uppercase;
   text-align: center;
   margin-bottom: 8px;
 }
