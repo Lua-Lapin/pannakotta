@@ -188,6 +188,8 @@ function renderLivers() {
   const container = document.getElementById("livers-container");
   if (!container) return;
 
+  let lastActivatedCell = null;
+
   // モーダルオーバーレイを body に追加
   const overlay = document.createElement("div");
   overlay.className = "liver-modal-overlay hidden";
@@ -203,9 +205,12 @@ function renderLivers() {
   document.body.appendChild(overlay);
 
   overlay.addEventListener("click", (e) => {
-    if (e.target === overlay) closeModal(overlay);
+    if (e.target === overlay) closeModal(overlay, lastActivatedCell);
   });
-  overlay.querySelector(".liver-modal-close").addEventListener("click", () => closeModal(overlay));
+  overlay.querySelector(".liver-modal-close").addEventListener("click", () => closeModal(overlay, lastActivatedCell));
+  overlay.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeModal(overlay, lastActivatedCell);
+  });
 
   // アイコングリッドを描画
   let html = '<div class="livers-icon-grid">';
@@ -220,10 +225,14 @@ function renderLivers() {
 
   // クリック・キーボードイベント
   container.querySelectorAll(".liver-icon-cell").forEach((cell) => {
-    cell.addEventListener("click", () => openModal(overlay, LIVERS[Number(cell.dataset.index)]));
+    cell.addEventListener("click", () => {
+      lastActivatedCell = cell;
+      openModal(overlay, LIVERS[Number(cell.dataset.index)]);
+    });
     cell.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") {
         e.preventDefault();
+        lastActivatedCell = cell;
         openModal(overlay, LIVERS[Number(cell.dataset.index)]);
       }
     });
@@ -240,11 +249,13 @@ function openModal(overlay, liver) {
   overlay.classList.remove("hidden");
   document.body.style.overflow = "hidden";
   lucide.createIcons();
+  overlay.querySelector(".liver-modal-close").focus();
 }
 
-function closeModal(overlay) {
+function closeModal(overlay, returnFocusTo) {
   overlay.classList.add("hidden");
   document.body.style.overflow = "";
+  if (returnFocusTo) returnFocusTo.focus();
 }
 
 renderLivers();
