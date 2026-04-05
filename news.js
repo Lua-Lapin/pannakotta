@@ -1,4 +1,5 @@
 const NEWS = [
+  { date: "2026.04.06", badge: "入賞", text: "一期生りひとが千葉ポスターイベントで9位獲得！" },
   { date: "2026.04.04", text: "4期生メンバーを公開しました" },
   { date: "2026.04.02", text: "3期生メンバーを公開しました" },
   { date: "2026.04.01", text: "2期生メンバーを公開しました" },
@@ -13,7 +14,10 @@ function renderNews(containerId, limit) {
   const items = limit ? NEWS.slice(0, limit) : NEWS;
   let html = '<div class="news-list">';
   items.forEach(function(item) {
-    html += `<div class="news-item"><span class="news-date">${item.date}</span><span class="news-text">${item.text}</span></div>`;
+    const badge = item.badge
+      ? `<span class="news-badge">${item.badge}</span>`
+      : '';
+    html += `<div class="news-item"><span class="news-date">${item.date}</span>${badge}<span class="news-text">${item.text}</span></div>`;
   });
   html += '</div>';
   container.innerHTML = html;
