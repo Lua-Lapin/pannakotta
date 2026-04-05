@@ -190,64 +190,67 @@ function buildSocialLinks(links) {
   return html;
 }
 
-function buildCard(liver) {
-  const gen2Class = liver.gen === 2 ? " liver-card--gen2" : "";
-  return `
-    <article class="liver-card${gen2Class}">
-      <img class="liver-card-icon" src="${liver.img}" alt="${liver.name}">
-      <div class="liver-card-body">
-        <div class="liver-card-name-group">
-          <h3 class="liver-card-name">${liver.name}</h3>
-          <p class="liver-card-name-en">${liver.nameEn}</p>
-        </div>
-        ${buildSocialLinks(liver.links)}
-      </div>
-      <p class="liver-card-greeting">${liver.greeting}</p>
-    </article>`;
-}
-
 function renderLivers() {
   const container = document.getElementById("livers-container");
   if (!container) return;
 
-  const groups = {};
-  LIVERS.forEach(liver => {
-    if (!groups[liver.gen]) groups[liver.gen] = [];
-    groups[liver.gen].push(liver);
+  // モーダルオーバーレイを body に追加
+  const overlay = document.createElement("div");
+  overlay.className = "liver-modal-overlay hidden";
+  overlay.innerHTML = `
+    <div class="liver-modal" role="dialog" aria-modal="true">
+      <button class="liver-modal-close" aria-label="閉じる">×</button>
+      <img class="liver-modal-icon" src="" alt="">
+      <h3 class="liver-modal-name"></h3>
+      <p class="liver-modal-name-en"></p>
+      <p class="liver-modal-greeting"></p>
+      <div class="liver-modal-links"></div>
+    </div>`;
+  document.body.appendChild(overlay);
+
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closeModal(overlay);
   });
+  overlay.querySelector(".liver-modal-close").addEventListener("click", () => closeModal(overlay));
 
-  const allGens = [1, 2, 3, 4, 99];
-  let html = "";
-
-  allGens.forEach((gen, sectionIndex) => {
-    const meta = GEN_META[gen] || { title: `${gen}期生`, sub: `${gen}th Generation` };
-    const livers = groups[gen] || [];
-    const isFirst = sectionIndex === 0;
-
-    if (!isFirst) html += '<hr class="gen-separator">';
-
-    const paddingStyle = isFirst ? "" : ' style="padding-top:0;"';
-    html += `<div class="gen-section"${paddingStyle}>`;
-    html += `
-      <div class="gen-header">
-        <h2 class="gen-title">${meta.title}</h2>
-        <p class="gen-sub">${meta.sub}</p>
-        <div class="gen-divider"></div>
-      </div>`;
-
-    if (livers.length === 0) {
-      html += '<p style="text-align:center;color:var(--color-text-muted);font-size:13px;letter-spacing:1px;padding-bottom:32px;">✦ &nbsp; 準備中 &nbsp; ✦</p>';
-    } else {
-      livers.forEach(liver => {
-        html += buildCard(liver);
-      });
-    }
-
-    html += "</div>";
+  // アイコングリッドを描画
+  let html = '<div class="livers-icon-grid">';
+  LIVERS.forEach((liver, index) => {
+    html += `<div class="liver-icon-cell" data-index="${index}" role="button" tabindex="0" aria-label="${liver.name}の詳細を見る">
+      <img src="${liver.img}" alt="${liver.name}" loading="lazy">
+      <span class="liver-icon-cell-name">${liver.name}</span>
+    </div>`;
   });
-
+  html += "</div>";
   container.innerHTML = html;
+
+  // クリック・キーボードイベント
+  container.querySelectorAll(".liver-icon-cell").forEach((cell) => {
+    cell.addEventListener("click", () => openModal(overlay, LIVERS[Number(cell.dataset.index)]));
+    cell.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openModal(overlay, LIVERS[Number(cell.dataset.index)]);
+      }
+    });
+  });
+}
+
+function openModal(overlay, liver) {
+  overlay.querySelector(".liver-modal-icon").src = liver.img;
+  overlay.querySelector(".liver-modal-icon").alt = liver.name;
+  overlay.querySelector(".liver-modal-name").textContent = liver.name;
+  overlay.querySelector(".liver-modal-name-en").textContent = liver.nameEn;
+  overlay.querySelector(".liver-modal-greeting").textContent = liver.greeting;
+  overlay.querySelector(".liver-modal-links").innerHTML = buildSocialLinks(liver.links);
+  overlay.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+  lucide.createIcons();
+}
+
+function closeModal(overlay) {
+  overlay.classList.add("hidden");
+  document.body.style.overflow = "";
 }
 
 renderLivers();
-lucide.createIcons();
