@@ -208,10 +208,14 @@ function renderLivers() {
     <div class="liver-modal" role="dialog" aria-modal="true" aria-labelledby="liver-modal-name-heading">
       <button class="liver-modal-close" aria-label="閉じる">×</button>
       <img class="liver-modal-icon" alt="">
-      <h3 class="liver-modal-name" id="liver-modal-name-heading"></h3>
-      <p class="liver-modal-name-en"></p>
+      <div class="liver-modal-name-row">
+        <div class="liver-modal-name-block">
+          <h3 class="liver-modal-name" id="liver-modal-name-heading"></h3>
+          <p class="liver-modal-name-en"></p>
+        </div>
+        <div class="liver-modal-links"></div>
+      </div>
       <p class="liver-modal-greeting"></p>
-      <div class="liver-modal-links"></div>
     </div>`;
   document.body.appendChild(overlay);
 

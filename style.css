@@ -371,6 +371,19 @@ a:focus-visible {
   margin-right: auto;
 }
 
+.liver-modal-name-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.liver-modal-name-block {
+  text-align: center;
+  min-width: 0;
+}
+
 .liver-modal-name {
   font-family: var(--font-serif);
   font-size: 22px;
@@ -383,7 +396,6 @@ a:focus-visible {
   color: var(--color-accent);
   letter-spacing: 3px;
   text-transform: uppercase;
-  margin-bottom: 16px;
 }
 
 .liver-modal-greeting {
@@ -398,8 +410,12 @@ a:focus-visible {
 
 .liver-modal-links {
   display: flex;
-  gap: 8px;
-  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.liver-modal-links:empty {
+  display: none;
 }
 
 /* ===== レスポンシブ（スマホ） ===== */
