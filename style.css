@@ -246,8 +246,7 @@ a:focus-visible {
 
 /* Social button links used in modal */
 .liver-social-btn {
-  width: 32px;
-  height: 32px;
+  padding: 8px;
   border-radius: 50%;
   background: var(--color-accent);
   color: #fff;
@@ -257,6 +256,10 @@ a:focus-visible {
   text-decoration: none;
   transition: opacity 0.2s;
   flex-shrink: 0;
+}
+
+.liver-social-btn + .liver-social-btn {
+  margin-left: 5px;
 }
 
 .liver-social-btn:hover {
