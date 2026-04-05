@@ -193,6 +193,15 @@ const LIVERS = [
   }
 ];
 
+const GEN_META = {
+  1:  { title: "1期生", sub: "1st Generation" },
+  2:  { title: "2期生", sub: "2nd Generation" },
+  3:  { title: "3期生", sub: "3rd Generation" },
+  4:  { title: "4期生", sub: "4th Generation" },
+  5:  { title: "5期生", sub: "5th Generation" },
+  99: { title: "研修生", sub: "Pre-debut Generation" },
+};
+
 function buildSocialLinks(links) {
   if (!links) return "";
   const hasTwitter = links.twitter;
@@ -227,6 +236,7 @@ function renderLivers() {
   overlay.innerHTML = `
     <div class="liver-modal" role="dialog" aria-modal="true" aria-labelledby="liver-modal-name-heading">
       <button class="liver-modal-close" aria-label="閉じる">×</button>
+      <span class="liver-modal-gen-badge"></span>
       <img class="liver-modal-icon" alt="">
       <div class="liver-modal-name-row">
         <div class="liver-modal-name-block">
@@ -247,15 +257,41 @@ function renderLivers() {
     if (e.key === "Escape") closeModal(overlay, lastActivatedCell);
   });
 
-  // アイコングリッドを描画
-  let html = '<div class="livers-icon-grid">';
+  // gen でグループ化
+  const groups = {};
   LIVERS.forEach((liver, index) => {
-    html += `<div class="liver-icon-cell" data-index="${index}" role="button" tabindex="0" aria-label="${liver.name}の詳細を見る">
-      <img src="${liver.img}" alt="${liver.name}" loading="lazy">
-      <span class="liver-icon-cell-name">${liver.name}</span>
-    </div>`;
+    if (!groups[liver.gen]) groups[liver.gen] = [];
+    groups[liver.gen].push({ liver, index });
   });
-  html += "</div>";
+
+  // GEN_META のキー順にセクション描画
+  const genOrder = Object.keys(GEN_META).map(Number);
+  let html = "";
+  let sectionCount = 0;
+
+  genOrder.forEach((gen) => {
+    const members = groups[gen];
+    if (!members || members.length === 0) return;
+    const meta = GEN_META[gen];
+    if (sectionCount > 0) html += '<hr class="gen-separator">';
+    html += `<div class="gen-section">`;
+    html += `<div class="gen-header">
+      <h2 class="gen-title">${meta.title}</h2>
+      <p class="gen-sub">${meta.sub}</p>
+      <div class="gen-divider"></div>
+    </div>`;
+    html += '<div class="livers-icon-grid">';
+    members.forEach(({ liver, index }) => {
+      html += `<div class="liver-icon-cell" data-index="${index}" role="button" tabindex="0" aria-label="${liver.name}の詳細を見る">
+        <img src="${liver.img}" alt="${liver.name}" loading="lazy">
+        <span class="liver-icon-cell-name">${liver.name}</span>
+      </div>`;
+    });
+    html += '</div>';
+    html += '</div>';
+    sectionCount++;
+  });
+
   container.innerHTML = html;
 
   // クリック・キーボードイベント
