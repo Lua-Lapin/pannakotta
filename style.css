@@ -420,6 +420,92 @@ a:focus-visible {
   text-align: center;
 }
 
+/* ===== ライバーモーダル ===== */
+.liver-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.liver-modal-overlay.hidden {
+  display: none;
+}
+
+.liver-modal {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  padding: 32px 28px;
+  max-width: 360px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.liver-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+}
+
+.liver-modal-close:hover {
+  color: var(--color-text);
+}
+
+.liver-modal-icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--color-border);
+  margin-bottom: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.liver-modal-name {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  color: var(--color-text);
+  margin-bottom: 4px;
+}
+
+.liver-modal-name-en {
+  font-size: 10px;
+  color: var(--color-accent);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.liver-modal-greeting {
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-style: italic;
+  color: var(--color-text-body);
+  line-height: 1.9;
+  margin-bottom: 20px;
+  min-height: 1em;
+}
+
+.liver-modal-links {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
 /* ===== レスポンシブ（スマホ） ===== */
 @media (max-width: 600px) {
   .nav {
