@@ -145,12 +145,23 @@ const LIVERS = [
   {
     gen: 4,
     name: "夜廻 葉理",
-    nameEn: "YOMAWARI RAMINA",
+    nameEn: "YOMAWARI LAMINA",
     img: "img/ramina.png",
     greeting: "「貴方のいいねが私の励みになります！」",
     links: {
       twitter: "https://x.com/canazawa0717",
       reality: "https://reality.app/profile/8ab45997?adj_t=8ogcewh_z9yhix5"
+    }
+  },
+  {
+    gen: 5,
+    name: "りんね",
+    nameEn: "RINNE",
+    img: "img/rinne.png",
+    greeting: "「あなたのいいね、また巡ってきてね」",
+    links: {
+      twitter: "https://x.com/Amakawa_REALITY",
+      reality: "https://reality.app/profile/4c957cb4?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
