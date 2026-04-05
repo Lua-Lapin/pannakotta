@@ -7,7 +7,8 @@ const LIVERS = [
     greeting: "「あなたのいいねで気分るんるん🎵」",
     links: {
       twitter: "https://x.com/Lun222Lun",
-      reality: "https://reality.app/profile/cce744e4?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/cce744e4?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -18,7 +19,8 @@ const LIVERS = [
     greeting: "「そのいいねでポーション作るね」",
     links: {
       twitter: "https://x.com/ritorito315",
-      reality: "https://reality.app/profile/3684fd87?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/3684fd87?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -29,7 +31,8 @@ const LIVERS = [
     greeting: "「君のいいねがちづのこころに刺さったよ」",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/ecfd51e0?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/ecfd51e0?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -40,7 +43,8 @@ const LIVERS = [
     greeting: "「あなたのいいね、特別なアロマに調合しとくね」",
     links: {
       twitter: "https://x.com/Y_Kotoha321",
-      reality: "https://reality.app/profile/204e6e74?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/204e6e74?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -51,7 +55,8 @@ const LIVERS = [
     greeting: "「君のいいねで雪が積もるよ」",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/168eb0d5?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/168eb0d5?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -62,7 +67,8 @@ const LIVERS = [
     greeting: "「あなたに藤のご加護がありますように」",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/b6cb2e54?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/b6cb2e54?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -73,7 +79,8 @@ const LIVERS = [
     greeting: "「私と素敵な物語作ろうね」",
     links: {
       twitter: "https://x.com/riniine",
-      reality: "https://reality.app/profile/21100160?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/21100160?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -84,7 +91,8 @@ const LIVERS = [
     greeting: "「君のいいねにメロついちゃうぞ」",
     links: {
       twitter: "https://x.com/hakutooooooooou",
-      reality: "https://reality.app/profile/b1210d80?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/b1210d80?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -95,7 +103,8 @@ const LIVERS = [
     greeting: "「お茶と一緒にいただきまーす」",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/2a226c35?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/2a226c35?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -106,7 +115,8 @@ const LIVERS = [
     greeting: "「君のいいね、ごぞちゃんの一部にしちゃうぞ」",
     links: {
       twitter: "https://x.com/axkhq6",
-      reality: "https://reality.app/profile/17d13ff1?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/17d13ff1?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -117,7 +127,8 @@ const LIVERS = [
     greeting: "「にくきゅうﾊﾟﾝﾁ🫶🤜」",
     links: {
       twitter: "https://x.com/niyyamu",
-      reality: "https://reality.app/profile/9108e6f4?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/9108e6f4?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -128,7 +139,8 @@ const LIVERS = [
     greeting: "「りーん、りん！君のいいね筏で運ぶね！」",
     links: {
       twitter: "https://x.com/871kada_rindo",
-      reality: "https://reality.app/profile/c1857de2?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/c1857de2?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -139,7 +151,8 @@ const LIVERS = [
     greeting: "「いいねありがとう！そのいいね誤タップでねえが？」",
     links: {
       twitter: "https://x.com/bibasato0712",
-      reality: "https://reality.app/profile/8dac3cf7?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/8dac3cf7?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -150,7 +163,8 @@ const LIVERS = [
     greeting: "「貴方のいいねが私の励みになります！」",
     links: {
       twitter: "https://x.com/canazawa0717",
-      reality: "https://reality.app/profile/8ab45997?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/8ab45997?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -161,7 +175,8 @@ const LIVERS = [
     greeting: "「あなたのいいね、また巡ってきてね」",
     links: {
       twitter: "https://x.com/Amakawa_REALITY",
-      reality: "https://reality.app/profile/4c957cb4?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/4c957cb4?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -172,94 +187,110 @@ const LIVERS = [
     greeting: "",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/0fbd49f4?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/0fbd49f4?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   }
 ];
-
-const GEN_META = {
-  1: { title: "1期生", sub: "1st Generation" },
-  2: { title: "2期生", sub: "2nd Generation" },
-  3: { title: "3期生", sub: "3rd Generation" },
-  4: { title: "4期生", sub: "4th Generation" },
-  5: { title: "5期生", sub: "5th Generation" },
-  99: { title: "研修生", sub: "Pre-debut Generation" }
-};
 
 function buildSocialLinks(links) {
   if (!links) return "";
   const hasTwitter = links.twitter;
   const hasReality = links.reality;
-  if (!hasTwitter && !hasReality) return "";
+  const hasLink = links.link;
+  if (!hasTwitter && !hasReality && !hasLink) return "";
   let html = '<div class="liver-card-links">';
+  // Note: links.twitter, links.reality, links.link are hardcoded literals in LIVERS — not user input.
+  // If LIVERS is ever loaded from an external source, sanitize these values first.
   if (hasTwitter) {
     html += `<a class="liver-social-btn" href="${links.twitter}" target="_blank" rel="noopener noreferrer" title="X (Twitter)" aria-label="X (Twitter)"><i data-lucide="x" width="15" height="15"></i></a>`;
   }
   if (hasReality) {
     html += `<a class="liver-social-btn" href="${links.reality}" target="_blank" rel="noopener noreferrer" title="Reality" aria-label="Reality"><i data-lucide="diamond" width="15" height="15"></i></a>`;
   }
+  if (hasLink) {
+    html += `<a class="liver-social-btn" href="${links.link}" target="_blank" rel="noopener noreferrer" title="リンク" aria-label="リンク"><i data-lucide="link" width="15" height="15"></i></a>`;
+  }
   html += "</div>";
   return html;
-}
-
-function buildCard(liver) {
-  const gen2Class = liver.gen === 2 ? " liver-card--gen2" : "";
-  return `
-    <article class="liver-card${gen2Class}">
-      <img class="liver-card-icon" src="${liver.img}" alt="${liver.name}">
-      <div class="liver-card-body">
-        <div class="liver-card-name-group">
-          <h3 class="liver-card-name">${liver.name}</h3>
-          <p class="liver-card-name-en">${liver.nameEn}</p>
-        </div>
-        ${buildSocialLinks(liver.links)}
-      </div>
-      <p class="liver-card-greeting">${liver.greeting}</p>
-    </article>`;
 }
 
 function renderLivers() {
   const container = document.getElementById("livers-container");
   if (!container) return;
 
-  const groups = {};
-  LIVERS.forEach(liver => {
-    if (!groups[liver.gen]) groups[liver.gen] = [];
-    groups[liver.gen].push(liver);
+  let lastActivatedCell = null;
+
+  // モーダルオーバーレイを body に追加
+  const overlay = document.createElement("div");
+  overlay.className = "liver-modal-overlay hidden";
+  overlay.innerHTML = `
+    <div class="liver-modal" role="dialog" aria-modal="true" aria-labelledby="liver-modal-name-heading">
+      <button class="liver-modal-close" aria-label="閉じる">×</button>
+      <img class="liver-modal-icon" alt="">
+      <div class="liver-modal-name-row">
+        <div class="liver-modal-name-block">
+          <h3 class="liver-modal-name" id="liver-modal-name-heading"></h3>
+          <p class="liver-modal-name-en"></p>
+        </div>
+        <div class="liver-modal-links"></div>
+      </div>
+      <p class="liver-modal-greeting"></p>
+    </div>`;
+  document.body.appendChild(overlay);
+
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closeModal(overlay, lastActivatedCell);
+  });
+  overlay.querySelector(".liver-modal-close").addEventListener("click", () => closeModal(overlay, lastActivatedCell));
+  overlay.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeModal(overlay, lastActivatedCell);
   });
 
-  const allGens = [1, 2, 3, 4, 5, 99];
-  let html = "";
-
-  allGens.forEach((gen, sectionIndex) => {
-    const meta = GEN_META[gen] || { title: `${gen}期生`, sub: `${gen}th Generation` };
-    const livers = groups[gen] || [];
-    const isFirst = sectionIndex === 0;
-
-    if (!isFirst) html += '<hr class="gen-separator">';
-
-    const paddingStyle = isFirst ? "" : ' style="padding-top:0;"';
-    html += `<div class="gen-section"${paddingStyle}>`;
-    html += `
-      <div class="gen-header">
-        <h2 class="gen-title">${meta.title}</h2>
-        <p class="gen-sub">${meta.sub}</p>
-        <div class="gen-divider"></div>
-      </div>`;
-
-    if (livers.length === 0) {
-      html += '<p style="text-align:center;color:var(--color-text-muted);font-size:13px;letter-spacing:1px;padding-bottom:32px;">✦ &nbsp; 準備中 &nbsp; ✦</p>';
-    } else {
-      livers.forEach(liver => {
-        html += buildCard(liver);
-      });
-    }
-
-    html += "</div>";
+  // アイコングリッドを描画
+  let html = '<div class="livers-icon-grid">';
+  LIVERS.forEach((liver, index) => {
+    html += `<div class="liver-icon-cell" data-index="${index}" role="button" tabindex="0" aria-label="${liver.name}の詳細を見る">
+      <img src="${liver.img}" alt="${liver.name}" loading="lazy">
+      <span class="liver-icon-cell-name">${liver.name}</span>
+    </div>`;
   });
-
+  html += "</div>";
   container.innerHTML = html;
+
+  // クリック・キーボードイベント
+  container.querySelectorAll(".liver-icon-cell").forEach((cell) => {
+    cell.addEventListener("click", () => {
+      lastActivatedCell = cell;
+      openModal(overlay, LIVERS[Number(cell.dataset.index)]);
+    });
+    cell.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        lastActivatedCell = cell;
+        openModal(overlay, LIVERS[Number(cell.dataset.index)]);
+      }
+    });
+  });
+}
+
+function openModal(overlay, liver) {
+  overlay.querySelector(".liver-modal-icon").src = liver.img;
+  overlay.querySelector(".liver-modal-icon").alt = liver.name;
+  overlay.querySelector(".liver-modal-name").textContent = liver.name;
+  overlay.querySelector(".liver-modal-name-en").textContent = liver.nameEn;
+  overlay.querySelector(".liver-modal-greeting").textContent = liver.greeting;
+  overlay.querySelector(".liver-modal-links").innerHTML = buildSocialLinks(liver.links);
+  overlay.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+  lucide.createIcons();
+  overlay.querySelector(".liver-modal-close").focus();
+}
+
+function closeModal(overlay, returnFocusTo) {
+  overlay.classList.add("hidden");
+  document.body.style.overflow = "";
+  if (returnFocusTo) returnFocusTo.focus();
 }
 
 renderLivers();
-lucide.createIcons();
