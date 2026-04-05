@@ -244,6 +244,18 @@ a:focus-visible {
   color: var(--color-text);
 }
 
+.news-badge {
+  font-size: 10px;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  border-radius: 3px;
+  padding: 1px 6px;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+  align-self: center;
+}
+
 /* Social button links used in modal */
 .liver-social-btn {
   padding: 8px;
