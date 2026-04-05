@@ -145,12 +145,23 @@ const LIVERS = [
   {
     gen: 4,
     name: "夜廻 葉理",
-    nameEn: "YOMAWARI RAMINA",
+    nameEn: "YOMAWARI LAMINA",
     img: "img/ramina.png",
     greeting: "「貴方のいいねが私の励みになります！」",
     links: {
       twitter: "https://x.com/canazawa0717",
       reality: "https://reality.app/profile/8ab45997?adj_t=8ogcewh_z9yhix5"
+    }
+  },
+  {
+    gen: 5,
+    name: "りんね",
+    nameEn: "RINNE",
+    img: "img/rinne.png",
+    greeting: "「あなたのいいね、また巡ってきてね」",
+    links: {
+      twitter: "https://x.com/Amakawa_REALITY",
+      reality: "https://reality.app/profile/4c957cb4?adj_t=8ogcewh_z9yhix5"
     }
   },
   {
@@ -171,6 +182,7 @@ const GEN_META = {
   2: { title: "2期生", sub: "2nd Generation" },
   3: { title: "3期生", sub: "3rd Generation" },
   4: { title: "4期生", sub: "4th Generation" },
+  5: { title: "5期生", sub: "5th Generation" },
   99: { title: "研修生", sub: "Pre-debut Generation" }
 };
 
@@ -216,7 +228,7 @@ function renderLivers() {
     groups[liver.gen].push(liver);
   });
 
-  const allGens = [1, 2, 3, 4, 99];
+  const allGens = [1, 2, 3, 4, 5, 99];
   let html = "";
 
   allGens.forEach((gen, sectionIndex) => {
