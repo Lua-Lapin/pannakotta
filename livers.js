@@ -7,7 +7,8 @@ const LIVERS = [
     greeting: "「あなたのいいねで気分るんるん🎵」",
     links: {
       twitter: "https://x.com/Lun222Lun",
-      reality: "https://reality.app/profile/cce744e4?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/cce744e4?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -18,7 +19,8 @@ const LIVERS = [
     greeting: "「そのいいねでポーション作るね」",
     links: {
       twitter: "https://x.com/ritorito315",
-      reality: "https://reality.app/profile/3684fd87?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/3684fd87?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -29,7 +31,8 @@ const LIVERS = [
     greeting: "「君のいいねがちづのこころに刺さったよ」",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/ecfd51e0?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/ecfd51e0?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -40,7 +43,8 @@ const LIVERS = [
     greeting: "「あなたのいいね、特別なアロマに調合しとくね」",
     links: {
       twitter: "https://x.com/Y_Kotoha321",
-      reality: "https://reality.app/profile/204e6e74?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/204e6e74?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -51,7 +55,8 @@ const LIVERS = [
     greeting: "「君のいいねで雪が積もるよ」",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/168eb0d5?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/168eb0d5?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -62,7 +67,8 @@ const LIVERS = [
     greeting: "「あなたに藤のご加護がありますように」",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/b6cb2e54?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/b6cb2e54?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -73,7 +79,8 @@ const LIVERS = [
     greeting: "「私と素敵な物語作ろうね」",
     links: {
       twitter: "https://x.com/riniine",
-      reality: "https://reality.app/profile/21100160?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/21100160?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -84,7 +91,8 @@ const LIVERS = [
     greeting: "「君のいいねにメロついちゃうぞ」",
     links: {
       twitter: "https://x.com/hakutooooooooou",
-      reality: "https://reality.app/profile/b1210d80?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/b1210d80?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -95,7 +103,8 @@ const LIVERS = [
     greeting: "「お茶と一緒にいただきまーす」",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/2a226c35?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/2a226c35?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -106,7 +115,8 @@ const LIVERS = [
     greeting: "「君のいいね、ごぞちゃんの一部にしちゃうぞ」",
     links: {
       twitter: "https://x.com/axkhq6",
-      reality: "https://reality.app/profile/17d13ff1?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/17d13ff1?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -117,7 +127,8 @@ const LIVERS = [
     greeting: "「にくきゅうﾊﾟﾝﾁ🫶🤜」",
     links: {
       twitter: "https://x.com/niyyamu",
-      reality: "https://reality.app/profile/9108e6f4?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/9108e6f4?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -128,7 +139,8 @@ const LIVERS = [
     greeting: "「りーん、りん！君のいいね筏で運ぶね！」",
     links: {
       twitter: "https://x.com/871kada_rindo",
-      reality: "https://reality.app/profile/c1857de2?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/c1857de2?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -139,7 +151,8 @@ const LIVERS = [
     greeting: "「いいねありがとう！そのいいね誤タップでねえが？」",
     links: {
       twitter: "https://x.com/bibasato0712",
-      reality: "https://reality.app/profile/8dac3cf7?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/8dac3cf7?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -150,7 +163,8 @@ const LIVERS = [
     greeting: "「貴方のいいねが私の励みになります！」",
     links: {
       twitter: "https://x.com/canazawa0717",
-      reality: "https://reality.app/profile/8ab45997?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/8ab45997?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -161,7 +175,8 @@ const LIVERS = [
     greeting: "「あなたのいいね、また巡ってきてね」",
     links: {
       twitter: "https://x.com/Amakawa_REALITY",
-      reality: "https://reality.app/profile/4c957cb4?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/4c957cb4?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   },
   {
@@ -172,7 +187,8 @@ const LIVERS = [
     greeting: "",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/0fbd49f4?adj_t=8ogcewh_z9yhix5"
+      reality: "https://reality.app/profile/0fbd49f4?adj_t=8ogcewh_z9yhix5",
+      link: ""
     }
   }
 ];
@@ -181,15 +197,19 @@ function buildSocialLinks(links) {
   if (!links) return "";
   const hasTwitter = links.twitter;
   const hasReality = links.reality;
-  if (!hasTwitter && !hasReality) return "";
+  const hasLink = links.link;
+  if (!hasTwitter && !hasReality && !hasLink) return "";
   let html = '<div class="liver-card-links">';
-  // Note: links.twitter and links.reality are hardcoded literals in LIVERS — not user input.
+  // Note: links.twitter, links.reality, links.link are hardcoded literals in LIVERS — not user input.
   // If LIVERS is ever loaded from an external source, sanitize these values first.
   if (hasTwitter) {
     html += `<a class="liver-social-btn" href="${links.twitter}" target="_blank" rel="noopener noreferrer" title="X (Twitter)" aria-label="X (Twitter)"><i data-lucide="x" width="15" height="15"></i></a>`;
   }
   if (hasReality) {
     html += `<a class="liver-social-btn" href="${links.reality}" target="_blank" rel="noopener noreferrer" title="Reality" aria-label="Reality"><i data-lucide="diamond" width="15" height="15"></i></a>`;
+  }
+  if (hasLink) {
+    html += `<a class="liver-social-btn" href="${links.link}" target="_blank" rel="noopener noreferrer" title="リンク" aria-label="リンク"><i data-lucide="link" width="15" height="15"></i></a>`;
   }
   html += "</div>";
   return html;
