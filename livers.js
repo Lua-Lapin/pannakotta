@@ -311,6 +311,8 @@ function renderLivers() {
 }
 
 function openModal(overlay, liver) {
+  overlay.querySelector(".liver-modal-gen-badge").textContent =
+    GEN_META[liver.gen]?.title ?? `${liver.gen}期生`;
   overlay.querySelector(".liver-modal-icon").src = liver.img;
   overlay.querySelector(".liver-modal-icon").alt = liver.name;
   overlay.querySelector(".liver-modal-name").textContent = liver.name;
