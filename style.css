@@ -373,7 +373,7 @@ a:focus-visible {
 
 .liver-modal-name-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 12px;
   margin-bottom: 16px;
