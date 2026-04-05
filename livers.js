@@ -140,7 +140,7 @@ const LIVERS = [
     links: {
       twitter: "https://x.com/871kada_rindo",
       reality: "https://reality.app/profile/c1857de2?adj_t=8ogcewh_z9yhix5",
-      link: ""
+      link: "https://lit.link/871kadarindo"
     }
   },
   {
