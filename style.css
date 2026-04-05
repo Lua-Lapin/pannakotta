@@ -256,6 +256,16 @@ a:focus-visible {
   align-self: center;
 }
 
+@media (max-width: 600px) {
+  .news-item {
+    flex-wrap: wrap;
+    gap: 4px 10px;
+  }
+  .news-text {
+    flex-basis: 100%;
+  }
+}
+
 /* Social button links used in modal */
 .liver-social-btn {
   padding: 8px;
