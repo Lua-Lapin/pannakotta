@@ -66,7 +66,7 @@ const LIVERS = [
     img: "img/juri.png",
     greeting: "「あなたに藤のご加護がありますように」",
     links: {
-      twitter: "",
+      twitter: "https://x.com/Ichifuji_juri",
       reality: "https://reality.app/profile/b6cb2e54?adj_t=8ogcewh_z9yhix5",
       link: ""
     }
