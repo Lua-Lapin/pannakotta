@@ -27,7 +27,7 @@ const LIVERS = [
     gen: 1,
     name: "ちづ",
     nameEn: "CHIZU",
-    img: "img/chizu.png?v=2",
+    img: "img/chizu.png?v=3",
     greeting: "「君のいいねがちづのこころに刺さったよ」",
     links: {
       twitter: "",
