@@ -217,7 +217,7 @@ const LIVERS = [
   },
   {
     gen: 99,
-    name: "ユ²",
+    name: "ﾕ²",
     nameEn: "YUYU",
     img: "img/yuyu.png",
     greeting: "",
