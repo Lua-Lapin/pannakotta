@@ -208,7 +208,7 @@ const LIVERS = [
     name: "白神 啓",
     nameEn: "SHIRAKAMI KEI",
     img: "img/kei.png",
-    greeting: "",
+    greeting: "「いいねありがとうもっと推して啓」",
     links: {
       twitter: "https://x.com/sirakamikei",
       reality: "https://reality.app/profile/90fe2e63?adj_t=8ogcewh_z9yhix5",
