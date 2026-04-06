@@ -180,6 +180,42 @@ const LIVERS = [
     }
   },
   {
+    gen: 5,
+    name: "ステラ・マリス",
+    nameEn: "STELLA MARIS",
+    img: "img/stella.png",
+    greeting: "「口座残高89円」",
+    links: {
+      twitter: "",
+      reality: "https://reality.app/profile/76ed43a4?adj_t=8ogcewh_z9yhix5",
+      link: ""
+    }
+  },
+  {
+    gen: 5,
+    name: "れお",
+    nameEn: "REO",
+    img: "img/reo.png",
+    greeting: "「いいね押したから、居なくならないよね？」",
+    links: {
+      twitter: "https://x.com/reo_r_REALITY",
+      reality: "https://reality.app/profile/9695a625?adj_t=8ogcewh_z9yhix5",
+      link: "https://lit.link/reo_reo"
+    }
+  },
+  {
+    gen: 5,
+    name: "白神 啓",
+    nameEn: "SHIRAKAMI KEI",
+    img: "img/kei.png",
+    greeting: "",
+    links: {
+      twitter: "https://x.com/sirakamikei",
+      reality: "https://reality.app/profile/90fe2e63?adj_t=8ogcewh_z9yhix5",
+      link: ""
+    }
+  },
+  {
     gen: 99,
     name: "ユ²",
     nameEn: "YUYU",
