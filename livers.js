@@ -3,6 +3,8 @@ const LIVERS = [
     gen: 1,
     name: "るん",
     nameEn: "LUN",
+    fanMark: "",
+    fanName: "",
     img: "img/lun.png",
     greeting: "「あなたのいいねで気分るんるん🎵」",
     links: {
@@ -15,6 +17,8 @@ const LIVERS = [
     gen: 1,
     name: "りひと",
     nameEn: "RIHITO",
+    fanMark: "",
+    fanName: "",
     img: "img/rihito.png",
     greeting: "「そのいいねでポーション作るね」",
     links: {
@@ -27,6 +31,8 @@ const LIVERS = [
     gen: 1,
     name: "ちづ",
     nameEn: "CHIZU",
+    fanMark: "",
+    fanName: "",
     img: "img/chizu.png?v=3",
     greeting: "「君のいいねがちづのこころに刺さったよ」",
     links: {
@@ -39,6 +45,8 @@ const LIVERS = [
     gen: 2,
     name: "柳 琴葉",
     nameEn: "YANAGI KOTOHA",
+    fanMark: "",
+    fanName: "",
     img: "img/kotoha.png",
     greeting: "「あなたのいいね、特別なアロマに調合しとくね」",
     links: {
@@ -51,6 +59,8 @@ const LIVERS = [
     gen: 2,
     name: "雪",
     nameEn: "YUKI",
+    fanMark: "",
+    fanName: "",
     img: "img/yuki.png",
     greeting: "「君のいいねで雪が積もるよ」",
     links: {
@@ -63,6 +73,8 @@ const LIVERS = [
     gen: 2,
     name: "一藤 ジュリ",
     nameEn: "ICHIFUJI JURI",
+    fanMark: "",
+    fanName: "",
     img: "img/juri.png",
     greeting: "「あなたに藤のご加護がありますように」",
     links: {
@@ -75,6 +87,8 @@ const LIVERS = [
     gen: 2,
     name: "梓 りん",
     nameEn: "AZUSA RIN",
+    fanMark: "",
+    fanName: "",
     img: "img/rin.png",
     greeting: "「私と素敵な物語作ろうね」",
     links: {
@@ -87,6 +101,8 @@ const LIVERS = [
     gen: 3,
     name: "琥珀 桃",
     nameEn: "KOHAKU TOU",
+    fanMark: "",
+    fanName: "",
     img: "img/kohaku.png",
     greeting: "「君のいいねにメロついちゃうぞ」",
     links: {
@@ -99,6 +115,8 @@ const LIVERS = [
     gen: 3,
     name: "めーあ",
     nameEn: "ME_A",
+    fanMark: "",
+    fanName: "",
     img: "img/me_a.png",
     greeting: "「お茶と一緒にいただきまーす」",
     links: {
@@ -111,6 +129,8 @@ const LIVERS = [
     gen: 3,
     name: "五臓六腑",
     nameEn: "GOZOROPPU",
+    fanMark: "",
+    fanName: "",
     img: "img/roppu.png",
     greeting: "「君のいいね、ごぞちゃんの一部にしちゃうぞ」",
     links: {
@@ -123,6 +143,8 @@ const LIVERS = [
     gen: 3,
     name: "羽丸 にゃむ",
     nameEn: "UMARU NYAMU",
+    fanMark: "",
+    fanName: "",
     img: "img/umaru.png",
     greeting: "「にくきゅうﾊﾟﾝﾁ🫶🤜」",
     links: {
@@ -135,6 +157,8 @@ const LIVERS = [
     gen: 4,
     name: "花筏 竜胆",
     nameEn: "HANAIKADA RINDOU",
+    fanMark: "",
+    fanName: "",
     img: "img/rindou.png",
     greeting: "「りーん、りん！君のいいね筏で運ぶね！」",
     links: {
@@ -147,6 +171,8 @@ const LIVERS = [
     gen: 4,
     name: "さとう",
     nameEn: "SATO",
+    fanMark: "",
+    fanName: "",
     img: "img/sato.png",
     greeting: "「いいねありがとう！そのいいね誤タップでねえが？」",
     links: {
@@ -159,6 +185,8 @@ const LIVERS = [
     gen: 4,
     name: "夜廻 葉理",
     nameEn: "YOMAWARI LAMINA",
+    fanMark: "",
+    fanName: "",
     img: "img/ramina.png",
     greeting: "「貴方のいいねが私の励みになります！」",
     links: {
@@ -171,6 +199,8 @@ const LIVERS = [
     gen: 5,
     name: "りんね",
     nameEn: "RINNE",
+    fanMark: "",
+    fanName: "",
     img: "img/rinne.png",
     greeting: "「あなたのいいね、また巡ってきてね」",
     links: {
@@ -183,6 +213,8 @@ const LIVERS = [
     gen: 5,
     name: "ステラ・マリス",
     nameEn: "STELLA MARIS",
+    fanMark: "",
+    fanName: "",
     img: "img/stella.png",
     greeting: "「口座残高89円」",
     links: {
@@ -195,6 +227,8 @@ const LIVERS = [
     gen: 5,
     name: "れお",
     nameEn: "REO",
+    fanMark: "",
+    fanName: "",
     img: "img/reo.png",
     greeting: "「いいね押したから、居なくならないよね？」",
     links: {
@@ -207,6 +241,8 @@ const LIVERS = [
     gen: 5,
     name: "白神 啓",
     nameEn: "SHIRAKAMI KEI",
+    fanMark: "",
+    fanName: "",
     img: "img/kei.png",
     greeting: "「いいねありがとうもっと推して啓」",
     links: {
@@ -219,6 +255,8 @@ const LIVERS = [
     gen: 99,
     name: "ﾕ²",
     nameEn: "YUYU",
+    fanMark: "",
+    fanName: "",
     img: "img/yuyu.png",
     greeting: "",
     links: {
