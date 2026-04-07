@@ -281,6 +281,7 @@ function renderLivers() {
         </div>
         <div class="liver-modal-links"></div>
       </div>
+      <p class="liver-modal-fan-info"></p>
       <p class="liver-modal-greeting"></p>
     </div>`;
   document.body.appendChild(overlay);
@@ -353,6 +354,14 @@ function openModal(overlay, liver) {
   overlay.querySelector(".liver-modal-icon").alt = liver.name;
   overlay.querySelector(".liver-modal-name").textContent = liver.name;
   overlay.querySelector(".liver-modal-name-en").textContent = liver.nameEn;
+  const fanParts = [liver.fanMark, liver.fanName].filter(Boolean);
+  const fanEl = overlay.querySelector(".liver-modal-fan-info");
+  if (fanParts.length > 0) {
+    fanEl.textContent = fanParts.join(" ");
+    fanEl.hidden = false;
+  } else {
+    fanEl.hidden = true;
+  }
   overlay.querySelector(".liver-modal-greeting").textContent = liver.greeting;
   overlay.querySelector(".liver-modal-links").innerHTML = buildSocialLinks(liver.links);
   overlay.classList.remove("hidden");
