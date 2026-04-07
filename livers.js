@@ -197,8 +197,8 @@ const LIVERS = [
   },
   {
     gen: 5,
-    name: "りんね",
-    nameEn: "RINNE",
+    name: "夜桜 りんね",
+    nameEn: "YOZAKURA RINNE",
     fanMark: "🕶💙",
     fanName: "#輪廻転生",
     img: "img/rinne.png",
