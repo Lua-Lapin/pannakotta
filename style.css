@@ -290,11 +290,12 @@ a:focus-visible {
 
 /* ===== ライバーアイコングリッド ===== */
 .livers-icon-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 16px;
   padding: 32px 24px;
-  max-width: 480px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -307,6 +308,7 @@ a:focus-visible {
   padding: 12px 8px;
   border-radius: 4px;
   transition: background 0.15s;
+  flex: 0 0 120px;
 }
 
 .liver-icon-cell:hover {
