@@ -425,6 +425,13 @@ a:focus-visible {
   text-transform: uppercase;
 }
 
+.liver-modal-fan-info {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin: 0 0 4px;
+}
+
 .liver-modal-greeting {
   font-family: var(--font-serif);
   font-size: 13px;
