@@ -115,7 +115,7 @@ const LIVERS = [
     gen: 3,
     name: "めーあ",
     nameEn: "ME_A",
-    fanMark: "🩵🍵🐈‍⬛ 🍮",
+    fanMark: "🩵🍵🐈‍⬛",
     fanName: "お茶っぱ🌱",
     img: "img/me_a.png",
     greeting: "「お茶と一緒にいただきまーす」",
@@ -206,20 +206,6 @@ const LIVERS = [
     links: {
       twitter: "https://x.com/Amakawa_REALITY",
       reality: "https://reality.app/profile/4c957cb4?adj_t=8ogcewh_z9yhix5",
-      link: ""
-    }
-  },
-  {
-    gen: 5,
-    name: "ステラ・マリス",
-    nameEn: "STELLA MARIS",
-    fanMark: "🌟🐬",
-    fanName: "#＄ふぃん",
-    img: "img/stella.png",
-    greeting: "「口座残高89円」",
-    links: {
-      twitter: "",
-      reality: "https://reality.app/profile/76ed43a4?adj_t=8ogcewh_z9yhix5",
       link: ""
     }
   },
