@@ -120,7 +120,7 @@ const LIVERS = [
     img: "img/me_a.png",
     greeting: "「お茶と一緒にいただきまーす」",
     links: {
-      twitter: "",
+      twitter: "https://x.com/Reality_me_a",
       reality: "https://reality.app/profile/2a226c35?adj_t=8ogcewh_z9yhix5",
       link: ""
     }
