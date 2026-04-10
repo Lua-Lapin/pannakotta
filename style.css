@@ -19,7 +19,7 @@
   --color-border:    #f0d8b8;
   --color-footer-bg: #3a2010;
   --color-on-accent: #ffffff;
-  --font-serif:      'Cormorant Garamond', serif;
+  --font-serif:      'Cormorant Garamond', 'Noto Serif JP', serif;
   --font-body:       'Zen Maru Gothic', 'Noto Sans JP', sans-serif;
 }
 
@@ -186,7 +186,7 @@ a:focus-visible {
   display: inline-block;
   font-size: 10px;
   color: var(--color-accent);
-  border: 1px solid var(--color-accent);
+  border: 1.5px solid var(--color-accent);
   padding: 3px 10px;
   letter-spacing: 1px;
 }
@@ -197,7 +197,7 @@ a:focus-visible {
   letter-spacing: 3px;
   color: var(--color-accent);
   text-transform: uppercase;
-  border-bottom: 1px solid var(--color-accent);
+  border-bottom: 1.5px solid var(--color-accent);
   padding-bottom: 2px;
 }
 
@@ -212,7 +212,7 @@ a:focus-visible {
 
 .liver-thumb {
   text-align: center;
-  width: 128px;
+  width: 120px;
 }
 
 .liver-thumb-icon {
@@ -508,7 +508,7 @@ a:focus-visible {
 
 .gen-separator {
   border: none;
-  border-top: 1px solid var(--color-border);
+  border-top: 1.5px solid var(--color-border);
   margin: 0 24px;
 }
 
