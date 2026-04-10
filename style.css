@@ -55,14 +55,16 @@ a:focus-visible {
 }
 
 .nav-logo {
-  display: flex;
-  align-items: center;
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-style: italic;
+  color: var(--color-text);
+  letter-spacing: 1px;
 }
 
-.nav-logo img {
-  height: 40px;
-  width: auto;
-  display: block;
+.nav-logo em {
+  color: var(--color-accent);
+  font-style: italic;
 }
 
 .nav-links {
