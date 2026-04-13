@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Zen+Maru+Gothic:wght@400;700&display=swap');
+
+@theme {
+  --color-pc-bg:         #fffbf0;
+  --color-pc-bg-sub:     #fff5e6;
+  --color-pc-bg-dot:     #fde8cc;
+  --color-pc-text:       #3a2010;
+  --color-pc-text-body:  #6a4a30;
+  --color-pc-text-muted: #b08868;
+  --color-pc-accent:     #e8836a;
+  --color-pc-accent2:    #f5c290;
+  --color-pc-border:     #f0d8b8;
+  --color-pc-footer:     #3a2010;
+
+  --font-serif: 'Cormorant Garamond', 'Noto Serif JP', serif;
+  --font-sans:  'Zen Maru Gothic', 'Noto Sans JP', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-pc-bg-sub);
+  color: var(--color-pc-text);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible {
+  outline: 2px solid #e8836a;
+  outline-offset: 2px;
+}
