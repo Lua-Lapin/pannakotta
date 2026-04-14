@@ -44,7 +44,7 @@ export default function LiverModal({ liver, onClose }) {
           ×
         </button>
 
-        <span className="block text-[10px] text-pc-accent tracking-[4px] text-center mb-2">
+        <span className="block text-[12px] text-pc-accent tracking-[4px] text-center mb-2">
           {genLabel}
         </span>
 
@@ -63,7 +63,7 @@ export default function LiverModal({ liver, onClose }) {
             <p className="text-[10px] text-pc-accent tracking-[3px] uppercase">{liver.nameEn}</p>
           </div>
           {(twitter || reality || link) && (
-            <div className="flex flex-col gap-1.5 pt-1">
+            <div className="flex flex-row gap-1.5 pt-1">
               {twitter && (
                 <a href={twitter} target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"
                    className="p-2 rounded-full bg-pc-accent text-white inline-flex items-center justify-center shrink-0 hover:opacity-75 transition-opacity">
