@@ -1,4 +1,5 @@
 import Footer from './components/Footer'
+import SectionHeader from './components/SectionHeader'
 import { RELAY_EVENT } from './data/relay'
 
 export default function RelayPage() {
@@ -6,6 +7,8 @@ export default function RelayPage() {
     <>
       <main>
         <HeroSection />
+        <AboutSection />
+        <ParticipantsSection />
       </main>
       <Footer />
     </>
@@ -42,5 +45,53 @@ function HeroSection() {
         <div className="w-8 h-[1.5px] bg-pc-accent opacity-50" />
       </div>
     </header>
+  )
+}
+
+function AboutSection() {
+  return (
+    <section className="px-12 py-12 text-center bg-pc-bg-sub border-b border-pc-border max-sm:px-5">
+      <SectionHeader label="About" title="企画について" />
+      <p className="text-[13px] text-pc-text-body leading-relaxed max-w-[560px] mx-auto">
+        {RELAY_EVENT.description}
+      </p>
+    </section>
+  )
+}
+
+function ParticipantsSection() {
+  return (
+    <section className="px-12 py-12 bg-pc-bg border-b border-pc-border max-sm:px-5">
+      <div className="text-center mb-8">
+        <SectionHeader label="Members" title="参加ライバー" />
+      </div>
+      <div className="flex flex-wrap justify-center gap-6 max-w-[700px] mx-auto">
+        {RELAY_EVENT.participants.map(p => (
+          <ParticipantCard key={p.order} participant={p} />
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function ParticipantCard({ participant }) {
+  return (
+    <a
+      href={participant.realityUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex flex-col items-center gap-2 group"
+    >
+      <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-pc-border group-hover:border-pc-accent transition-colors">
+        <img
+          src={participant.img}
+          alt={participant.name}
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <span className="text-[11px] text-pc-text-muted tracking-[1px] group-hover:text-pc-accent transition-colors">
+        {participant.name}
+      </span>
+    </a>
   )
 }
