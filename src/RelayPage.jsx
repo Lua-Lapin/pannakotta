@@ -86,6 +86,8 @@ function ParticipantCard({ participant }) {
         <img
           src={participant.img}
           alt={participant.name}
+          loading="lazy"
+          onError={(e) => { e.currentTarget.style.visibility = 'hidden' }}
           className="w-full h-full object-cover"
         />
       </div>
