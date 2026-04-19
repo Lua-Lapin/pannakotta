@@ -260,8 +260,8 @@ export const LIVERS = [
     img: "img/sora.png",
     greeting: "「あなたのいいねキラッと輝いてるっ！」",
     links: {
-      twitter: "",
-      reality: "",
+      twitter: "https://x.com/kirakira_0sora",
+      reality: "https://reality.app/profile/edbb8f86?adj_t=8ogcewh_z9yhix5",
       link: ""
     }
   },
