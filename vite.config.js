@@ -12,6 +12,7 @@ export default defineConfig({
         livers:  'livers.html',
         news:    'news.html',
         recruit: 'recruit.html',
+        relay:   'relay.html',
       }
     }
   }
