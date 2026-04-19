@@ -258,7 +258,7 @@ export const LIVERS = [
     fanMark: "🌟🍼☁️",
     fanName: "#ほしみたい",
     img: "img/sora.png",
-    greeting: "",
+    greeting: "「あなたのいいねキラッと輝いてるっ！」",
     links: {
       twitter: "",
       reality: "",
