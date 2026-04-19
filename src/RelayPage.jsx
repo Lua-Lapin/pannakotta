@@ -106,13 +106,13 @@ function TimelineSection() {
   )
 
   return (
-    <section className="px-12 py-12 bg-pc-bg-sub max-sm:px-5">
+    <section className="px-12 py-12 bg-pc-bg-sub border-b border-pc-border max-sm:px-5">
       <div className="text-center mb-10">
         <SectionHeader label="Schedule" title="タイムライン" />
       </div>
       <div className="relative max-w-[480px] mx-auto">
         <div className="absolute left-1/2 top-0 bottom-0 w-[1.5px] bg-pc-border -translate-x-1/2" />
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 mt-4">
           {RELAY_EVENT.schedule.map(slot => (
             <SlotCard key={slot.slot} slot={slot} byOrder={byOrder} />
           ))}
@@ -136,12 +136,18 @@ function SlotCard({ slot, byOrder }) {
         {slot.day}　{slot.time}
       </p>
 
-      <div className="flex justify-center items-center gap-3 mb-5">
+      <div className="flex flex-wrap justify-center items-center gap-3 mb-5">
         {members.map((p, i) => (
           <Fragment key={p.order}>
             <div className="flex flex-col items-center gap-1">
               <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-pc-border">
-                <img src={p.img} alt={p.name} className="w-full h-full object-cover" />
+                <img
+                  src={p.img}
+                  alt={p.name}
+                  loading="lazy"
+                  onError={(e) => { e.currentTarget.style.visibility = 'hidden' }}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <span className="text-[11px] text-pc-text-muted">{p.name}</span>
             </div>
@@ -152,16 +158,18 @@ function SlotCard({ slot, byOrder }) {
         ))}
       </div>
 
-      <div className="text-center">
-        <a
-          href={members[0]?.realityUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-5 py-2 text-[11px] tracking-[2px] uppercase border border-pc-accent text-pc-accent rounded-full hover:bg-pc-accent hover:text-white transition-colors"
-        >
-          配信を見る →
-        </a>
-      </div>
+      {members.length > 0 && (
+        <div className="text-center">
+          <a
+            href={members[0].realityUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-5 py-2 text-[11px] tracking-[2px] uppercase border border-pc-accent text-pc-accent rounded-full hover:bg-pc-accent hover:text-white transition-colors"
+          >
+            配信を見る →
+          </a>
+        </div>
+      )}
     </div>
   )
 }
