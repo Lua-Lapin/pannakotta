@@ -238,7 +238,7 @@ export const LIVERS = [
     }
   },
   {
-    gen: 99,
+    gen: 6,
     name: "ﾕ²",
     nameEn: "YUYU",
     fanMark: "",
@@ -248,6 +248,34 @@ export const LIVERS = [
     links: {
       twitter: "",
       reality: "https://reality.app/profile/0fbd49f4?adj_t=8ogcewh_z9yhix5",
+      link: "https://lit.link/yuyu_2"
+    }
+  },
+  {
+    gen: 6,
+    name: "星見そら",
+    nameEn: "HOSHIMIRU SORA",
+    fanMark: "🌟🍼☁️",
+    fanName: "#ほしみたい",
+    img: "img/sora.png",
+    greeting: "",
+    links: {
+      twitter: "",
+      reality: "",
+      link: ""
+    }
+  },
+  {
+    gen: 6,
+    name: "りむ",
+    nameEn: "RIMU",
+    fanMark: "",
+    fanName: "",
+    img: "img/rimu.png",
+    greeting: "",
+    links: {
+      twitter: "",
+      reality: "",
       link: ""
     }
   }
@@ -259,5 +287,5 @@ export const GEN_META = {
   3:  { title: "3期生", sub: "3rd Generation" },
   4:  { title: "4期生", sub: "4th Generation" },
   5:  { title: "5期生", sub: "5th Generation" },
-  99: { title: "研修生", sub: "Pre-debut Generation" },
+  6:  { title: "6期生 - ひよこ組", sub: "6th Generation" },
 }
