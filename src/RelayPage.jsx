@@ -1,3 +1,4 @@
+import { Fragment } from 'react'
 import Footer from './components/Footer'
 import SectionHeader from './components/SectionHeader'
 import { RELAY_EVENT } from './data/relay'
@@ -9,6 +10,7 @@ export default function RelayPage() {
         <HeroSection />
         <AboutSection />
         <ParticipantsSection />
+        <TimelineSection />
       </main>
       <Footer />
     </>
@@ -95,5 +97,71 @@ function ParticipantCard({ participant }) {
         {participant.name}
       </span>
     </a>
+  )
+}
+
+function TimelineSection() {
+  const byOrder = Object.fromEntries(
+    RELAY_EVENT.participants.map(p => [p.order, p])
+  )
+
+  return (
+    <section className="px-12 py-12 bg-pc-bg-sub max-sm:px-5">
+      <div className="text-center mb-10">
+        <SectionHeader label="Schedule" title="タイムライン" />
+      </div>
+      <div className="relative max-w-[480px] mx-auto">
+        <div className="absolute left-1/2 top-0 bottom-0 w-[1.5px] bg-pc-border -translate-x-1/2" />
+        <div className="flex flex-col gap-8">
+          {RELAY_EVENT.schedule.map(slot => (
+            <SlotCard key={slot.slot} slot={slot} byOrder={byOrder} />
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function SlotCard({ slot, byOrder }) {
+  const members = slot.members.map(n => byOrder[n]).filter(Boolean)
+
+  return (
+    <div className="relative bg-pc-bg border border-pc-border rounded-xl px-6 py-5 shadow-sm">
+      <div className="absolute left-1/2 -top-4 w-3 h-3 rounded-full bg-pc-accent border-2 border-pc-bg -translate-x-1/2" />
+
+      <p className="text-[10px] text-pc-accent tracking-[3px] uppercase text-center mb-1">
+        SLOT {slot.slot}
+      </p>
+      <p className="text-[12px] text-pc-text-muted text-center mb-4">
+        {slot.day}　{slot.time}
+      </p>
+
+      <div className="flex justify-center items-center gap-3 mb-5">
+        {members.map((p, i) => (
+          <Fragment key={p.order}>
+            <div className="flex flex-col items-center gap-1">
+              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-pc-border">
+                <img src={p.img} alt={p.name} className="w-full h-full object-cover" />
+              </div>
+              <span className="text-[11px] text-pc-text-muted">{p.name}</span>
+            </div>
+            {i < members.length - 1 && (
+              <span className="text-pc-accent text-[16px] font-bold pb-4">×</span>
+            )}
+          </Fragment>
+        ))}
+      </div>
+
+      <div className="text-center">
+        <a
+          href={members[0]?.realityUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-5 py-2 text-[11px] tracking-[2px] uppercase border border-pc-accent text-pc-accent rounded-full hover:bg-pc-accent hover:text-white transition-colors"
+        >
+          配信を見る →
+        </a>
+      </div>
+    </div>
   )
 }
