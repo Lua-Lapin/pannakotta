@@ -272,7 +272,21 @@ export const LIVERS = [
     fanMark: "",
     fanName: "",
     img: "img/rimu.png",
-    greeting: "",
+    greeting: "「フェアリータイプのハートは全てりむがいただきますっ！ありがとうﾈｪﾝ！」",
+    links: {
+      twitter: "",
+      reality: "",
+      link: ""
+    }
+  },
+  {
+    gen: 7,
+    name: "せいと",
+    nameEn: "RIMU",
+    fanMark: "",
+    fanName: "",
+    img: "img/seito.png",
+    greeting: "「いいねしてくれて感謝♪そんなあなたに猫パンチ♪」",
     links: {
       twitter: "",
       reality: "",
@@ -288,4 +302,5 @@ export const GEN_META = {
   4:  { title: "4期生", sub: "4th Generation" },
   5:  { title: "5期生", sub: "5th Generation" },
   6:  { title: "6期生 - ひよこ組", sub: "6th Generation" },
+  7:  { title: "7期生", sub: "7th Generation" },
 }
