@@ -269,8 +269,8 @@ export const LIVERS = [
     gen: 6,
     name: "りむ",
     nameEn: "RIMU",
-    fanMark: "",
-    fanName: "",
+    fanMark: "😈👻",
+    fanName: "トレーナー",
     img: "img/rimu.png",
     greeting: "「フェアリータイプのハートは全てりむがいただきますっ！ありがとうﾈｪﾝ！」",
     links: {
