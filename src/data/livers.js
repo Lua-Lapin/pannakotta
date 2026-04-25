@@ -244,9 +244,9 @@ export const LIVERS = [
     fanMark: "",
     fanName: "",
     img: "img/yuyu.png",
-    greeting: "",
+    greeting: "「いいね、あんがと」",
     links: {
-      twitter: "",
+      twitter: "https://x.com/m3j4b",
       reality: "https://reality.app/profile/0fbd49f4?adj_t=8ogcewh_z9yhix5",
       link: "https://lit.link/yuyu_2"
     }
@@ -275,8 +275,8 @@ export const LIVERS = [
     greeting: "「フェアリータイプのハートは全てりむがいただきますっ！ありがとうﾈｪﾝ！」",
     links: {
       twitter: "",
-      reality: "",
-      link: ""
+      reality: "https://reality.app/profile/0e4ffc20?adj_t=8ogcewh_z9yhix5",
+      link: "https://x.com/ys7QDuaKuTRFK0y"
     }
   },
   {
@@ -289,15 +289,15 @@ export const LIVERS = [
     greeting: "「いいねしてくれて感謝♪そんなあなたに猫パンチ♪」",
     links: {
       twitter: "",
-      reality: "",
+      reality: "https://reality.app/profile/f4ec8d93?adj_t=8ogcewh_z9yhix5",
       link: ""
     }
   }
 ]
 
 export const GEN_META = {
-  1:  { title: "1期生", sub: "1st Generation" },
-  2:  { title: "2期生", sub: "2nd Generation" },
+  1:  { title: "1期生 - 酒カス", sub: "1st Generation" },
+  2:  { title: "2期生 - スナック癒", sub: "2nd Generation" },
   3:  { title: "3期生", sub: "3rd Generation" },
   4:  { title: "4期生", sub: "4th Generation" },
   5:  { title: "5期生", sub: "5th Generation" },
