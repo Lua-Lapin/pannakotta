@@ -241,8 +241,8 @@ export const LIVERS = [
     gen: 6,
     name: "ﾕ²",
     nameEn: "YUYU",
-    fanMark: "",
-    fanName: "",
+    fanMark: "🍥🍓",
+    fanName: "#愛ノ²",
     img: "img/yuyu.png",
     greeting: "「いいね、あんがと」",
     links: {
