@@ -125,7 +125,7 @@ function TimelineSection() {
           <div key={group.day} className="flex flex-col gap-6">
             <div className="flex items-center gap-3">
               <div className="flex-1 h-[1px] bg-pc-border" />
-              <span className="text-[11px] text-pc-text-muted tracking-[2px]">{di + 1}日目（{group.day}）</span>
+              <span className="text-[13px] text-pc-text-muted tracking-[2px]">{di + 1}日目（{group.day}）</span>
               <div className="flex-1 h-[1px] bg-pc-border" />
             </div>
             <div className="relative flex flex-col gap-8">
@@ -148,7 +148,7 @@ function SlotCard({ slot, byOrder }) {
     <div className="relative bg-pc-bg border border-pc-border rounded-xl px-6 py-5 shadow-sm">
       <div className="absolute left-1/2 -top-4 w-3 h-3 rounded-full bg-pc-accent border-2 border-pc-bg -translate-x-1/2" />
 
-      <p className="text-[12px] text-pc-text-muted text-center mb-4">
+      <p className="text-[14px] text-pc-text-muted text-center mb-4">
         {slot.day}　{slot.time}
       </p>
 
@@ -165,7 +165,7 @@ function SlotCard({ slot, byOrder }) {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <span className="text-[11px] text-pc-text-muted">{p.name}</span>
+              <span className="text-[13px] text-pc-text-muted">{p.name}</span>
             </div>
             {i < members.length - 1 && (
               <span className="text-pc-accent text-[16px] font-bold pb-4">×</span>
