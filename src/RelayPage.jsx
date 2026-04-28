@@ -1,4 +1,5 @@
 import { Fragment } from 'react'
+import Nav from './components/Nav'
 import Footer from './components/Footer'
 import SectionHeader from './components/SectionHeader'
 import { RELAY_EVENT } from './data/relay'
@@ -6,6 +7,7 @@ import { RELAY_EVENT } from './data/relay'
 export default function RelayPage() {
   return (
     <>
+      <Nav />
       <main>
         <HeroSection />
         <AboutSection />
