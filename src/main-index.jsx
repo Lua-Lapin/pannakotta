@@ -6,10 +6,33 @@ import SectionHeader from './components/SectionHeader'
 import NewsItem from './components/NewsItem'
 import { NEWS } from './data/news'
 import { LIVERS } from './data/livers'
+import { RELAY_EVENT } from './data/relay'
 
 const btnClass = "inline-block bg-gradient-to-br from-pc-accent to-pc-accent2 text-white px-[34px] py-[11px] rounded-3xl font-sans text-[13px] font-bold tracking-[1px] shadow-[0_4px_14px_rgba(232,131,106,0.35)] hover:opacity-85 transition-opacity"
 const textLinkClass = "text-[11px] tracking-[3px] text-pc-accent uppercase border-b-[1.5px] border-pc-accent pb-[2px]"
 const sectionBase = "px-12 py-14 border-b-[1.5px] border-pc-border max-sm:px-5 max-sm:py-12"
+
+function RelayBanner() {
+  return (
+    <a
+      href="relay.html"
+      className="flex items-center justify-between flex-wrap gap-3 px-7 py-3 bg-gradient-to-r from-pc-accent to-pc-accent2 max-sm:px-5"
+    >
+      <div className="flex items-center gap-3">
+        <span className="bg-white text-pc-accent text-[9px] font-bold tracking-[2px] px-[9px] py-[3px] rounded-full">
+          🎀 EVENT
+        </span>
+        <div>
+          <p className="text-white font-bold text-[13px]">{RELAY_EVENT.title}</p>
+          <p className="text-white/80 text-[10px] tracking-[2px]">{RELAY_EVENT.dates}</p>
+        </div>
+      </div>
+      <span className="text-white text-[11px] tracking-[2px] border border-white/60 px-[14px] py-[6px] rounded-full">
+        詳しく見る →
+      </span>
+    </a>
+  )
+}
 
 function IndexPage() {
   const gen1Livers = LIVERS.filter(l => l.gen === 1)
@@ -17,6 +40,7 @@ function IndexPage() {
   return (
     <>
       <Nav />
+      <RelayBanner />
       <main>
 
         {/* Hero */}
