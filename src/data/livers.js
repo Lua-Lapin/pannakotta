@@ -253,20 +253,6 @@ export const LIVERS = [
   },
   {
     gen: 6,
-    name: "星見そら",
-    nameEn: "HOSHIMIRU SORA",
-    fanMark: "🌟🍼☁️",
-    fanName: "#ほしみたい",
-    img: "img/sora.png",
-    greeting: "「あなたのいいねキラッと輝いてるっ！」",
-    links: {
-      twitter: "https://x.com/kirakira_0sora",
-      reality: "https://reality.app/profile/edbb8f86?adj_t=8ogcewh_z9yhix5",
-      link: ""
-    }
-  },
-  {
-    gen: 6,
     name: "りむ",
     nameEn: "RIMU",
     fanMark: "😈👻",
