@@ -1,7 +1,7 @@
 export const RELAY_EVENT = {
   title: "リレー配信",
   catchcopy: "バトンをつなごう",
-  description: "ぱんなこった事務所のライバーたちが、順番にバトンをつないでいくリレー配信企画です。",
+  description: "ぱんなこった事務所のライバーたちが、順番にバトンをつないでいくリレー配信企画です。\n今回のGW企画テーマは「トークテーマしりとり」！前の枠のテーマの最後の文字から始まるトークテーマを2人で考えて、時間内に語ってもらいます。",
   dates: "5月3日・5月5日",
   participants: [
     { order: 1,  name: "るん",        img: "img/lun.png",     realityUrl: "https://reality.app/profile/cce744e4?adj_t=8ogcewh_z9yhix5" },

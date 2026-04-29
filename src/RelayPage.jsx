@@ -56,9 +56,25 @@ function AboutSection() {
   return (
     <section className="px-12 py-12 text-center bg-pc-bg-sub border-b border-pc-border max-sm:px-5">
       <SectionHeader label="About" title="企画について" />
-      <p className="text-[13px] text-pc-text-body leading-relaxed max-w-[560px] mx-auto">
+      <p className="text-[13px] text-pc-text-body leading-relaxed max-w-[560px] mx-auto mb-6 whitespace-pre-line">
         {RELAY_EVENT.description}
       </p>
+      <div className="bg-pc-bg border border-pc-border rounded-xl px-6 py-5 text-left max-w-[480px] mx-auto">
+        <p className="text-[10px] text-pc-accent tracking-[3px] uppercase mb-3">Rule</p>
+        <p className="text-[13px] text-pc-text-body leading-relaxed mb-4">
+          テーマは名詞で終わる形にしましょう。
+        </p>
+        <div className="flex flex-col gap-2">
+          <div className="flex items-start gap-3 text-[12px]">
+            <span className="text-red-400 font-bold shrink-0 mt-0.5">NG</span>
+            <span className="text-pc-text-muted">「〜は？」「〜について」「〜を語る」で終わるもの</span>
+          </div>
+          <div className="flex items-start gap-3 text-[12px]">
+            <span className="text-green-500 font-bold shrink-0 mt-0.5">OK</span>
+            <span className="text-pc-text-muted">「持って行きたいもの。」のように名詞で終わるもの</span>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
