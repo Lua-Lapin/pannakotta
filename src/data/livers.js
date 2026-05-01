@@ -184,7 +184,7 @@ export const LIVERS = {
   ramina: {
     id: "ramina",
     name: "夜廻 葉理",
-    nameEn: "YOMAWARI LAMINA",
+    nameEn: "YOMAWARI RAMINA",
     fanMark: "🐍🍃",
     fanName: "#ｼｬｰ",
     img: "img/ramina.png",
@@ -260,9 +260,9 @@ export const LIVERS = {
     img: "img/rimu.png",
     greeting: "「フェアリータイプのハートは全てりむがいただきますっ！ありがとうﾈｪﾝ！」",
     links: {
-      twitter: "",
+      twitter: "https://x.com/ys7QDuaKuTRFK0y",
       reality: "https://reality.app/profile/0e4ffc20?adj_t=8ogcewh_z9yhix5",
-      link: "https://x.com/ys7QDuaKuTRFK0y"
+      link: ""
     }
   },
   seito: {
