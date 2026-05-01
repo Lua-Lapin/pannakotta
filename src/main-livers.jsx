@@ -46,7 +46,7 @@ function LiversPage() {
         </header>
 
         {/* 期生ごとのセクション */}
-        {genOrder.map((gen, idx) => {
+        {genOrder.filter(gen => GEN_ORDER[gen]?.length > 0).map((gen, idx) => {
           const ids = GEN_ORDER[gen]
           const meta = GEN_META[gen]
           return (

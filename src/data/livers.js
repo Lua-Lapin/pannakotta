@@ -41,20 +41,6 @@ export const LIVERS = {
       link: ""
     }
   },
-  kotoha: {
-    id: "kotoha",
-    name: "柳 琴葉",
-    nameEn: "YANAGI KOTOHA",
-    fanMark: "🐈‍⬛🚬",
-    fanName: "#柳葉亭の常連",
-    img: "img/kotoha.png",
-    greeting: "「あなたのいいね、特別なアロマに調合しとくね」",
-    links: {
-      twitter: "https://x.com/Y_Kotoha321",
-      reality: "https://reality.app/profile/204e6e74?adj_t=8ogcewh_z9yhix5",
-      link: ""
-    }
-  },
   yuki: {
     id: "yuki",
     name: "雪",
@@ -122,34 +108,6 @@ export const LIVERS = {
     links: {
       twitter: "https://x.com/Reality_me_a",
       reality: "https://reality.app/profile/2a226c35?adj_t=8ogcewh_z9yhix5",
-      link: ""
-    }
-  },
-  roppu: {
-    id: "roppu",
-    name: "五臓六腑",
-    nameEn: "GOZOROPPU",
-    fanMark: "🫀🧬",
-    fanName: "#ᖇෆᑭzu",
-    img: "img/roppu.png",
-    greeting: "「君のいいね、ごぞちゃんの一部にしちゃうぞ」",
-    links: {
-      twitter: "https://x.com/axkhq6",
-      reality: "https://reality.app/profile/17d13ff1?adj_t=8ogcewh_z9yhix5",
-      link: ""
-    }
-  },
-  umaru: {
-    id: "umaru",
-    name: "羽丸 にゃむ",
-    nameEn: "UMARU NYAMU",
-    fanMark: "🐈‍⬛🫧🔔",
-    fanName: "#にゃむんち",
-    img: "img/umaru.png",
-    greeting: "「にくきゅうﾊﾟﾝﾁ🫶🤜」",
-    links: {
-      twitter: "https://x.com/niyyamu",
-      reality: "https://reality.app/profile/9108e6f4?adj_t=8ogcewh_z9yhix5",
       link: ""
     }
   },
@@ -264,31 +222,17 @@ export const LIVERS = {
       reality: "https://reality.app/profile/0e4ffc20?adj_t=8ogcewh_z9yhix5",
       link: ""
     }
-  },
-  seito: {
-    id: "seito",
-    name: "せいと",
-    nameEn: "SEITO",
-    fanMark: "",
-    fanName: "",
-    img: "img/seito.png",
-    greeting: "「いいねしてくれて感謝♪そんなあなたに猫パンチ♪」",
-    links: {
-      twitter: "",
-      reality: "https://reality.app/profile/f4ec8d93?adj_t=8ogcewh_z9yhix5",
-      link: ""
-    }
-  },
+  }
 }
 
 export const GEN_ORDER = {
   1: ["lun", "rihito", "chizu"],
-  2: ["kotoha", "yuki", "juri", "rin"],
-  3: ["kohaku", "me_a", "roppu", "umaru"],
+  2: ["yuki", "juri", "rin"],
+  3: ["kohaku", "me_a"],
   4: ["rindou", "sato", "ramina"],
   5: ["rinne", "reo", "kei"],
   6: ["yuyu", "rimu"],
-  7: ["seito"],
+  7: [],
 }
 
 export const GEN_META = {
@@ -297,6 +241,6 @@ export const GEN_META = {
   3:  { title: "3期生", sub: "3rd Generation" },
   4:  { title: "4期生", sub: "4th Generation" },
   5:  { title: "5期生", sub: "5th Generation" },
-  6:  { title: "6期生 - ひよこ組", sub: "6th Generation" },
+  6:  { title: "6期生", sub: "6th Generation" },
   7:  { title: "7期生", sub: "7th Generation" },
 }

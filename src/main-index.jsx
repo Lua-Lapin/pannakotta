@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import SectionHeader from './components/SectionHeader'
 import NewsItem from './components/NewsItem'
 import { NEWS } from './data/news'
-import { LIVERS } from './data/livers'
+import { LIVERS, GEN_ORDER } from './data/livers'
 import { RELAY_EVENT } from './data/relay'
 
 const btnClass = "inline-block bg-gradient-to-br from-pc-accent to-pc-accent2 text-white px-[34px] py-[11px] rounded-3xl font-sans text-[13px] font-bold tracking-[1px] shadow-[0_4px_14px_rgba(232,131,106,0.35)] hover:opacity-85 transition-opacity"
@@ -35,7 +35,7 @@ function RelayBanner() {
 }
 
 function IndexPage() {
-  const gen1Livers = LIVERS.filter(l => l.gen === 1)
+  const gen1Livers = GEN_ORDER[1].map(id => LIVERS[id])
 
   return (
     <>
