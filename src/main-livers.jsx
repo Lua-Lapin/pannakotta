@@ -7,6 +7,8 @@ import LiverCard from './components/LiverCard'
 import LiverModal from './components/LiverModal'
 import { LIVERS, GEN_META, GEN_ORDER } from './data/livers'
 
+const genOrder = Object.keys(GEN_ORDER).map(Number)
+
 function LiversPage() {
   const [selectedLiver, setSelectedLiver] = useState(null) // { liver, gen }
   const lastFocusedRef = useRef(null)
@@ -16,12 +18,10 @@ function LiversPage() {
     lastFocusedRef.current?.focus()
   }, [])
 
-  const handleOpen = (liver, gen) => (e) => {
+  const handleOpen = useCallback((liver, gen) => (e) => {
     lastFocusedRef.current = e.currentTarget
     setSelectedLiver({ liver, gen })
-  }
-
-  const genOrder = Object.keys(GEN_ORDER).map(Number)
+  }, [])
 
   return (
     <>
