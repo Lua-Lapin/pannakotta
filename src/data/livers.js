@@ -222,6 +222,20 @@ export const LIVERS = {
       reality: "https://reality.app/profile/0e4ffc20?adj_t=8ogcewh_z9yhix5",
       link: ""
     }
+  },
+  hananagi: {
+    id: "hananagi",
+    name: "花巫 鈴音",
+    nameEn: "HANANAGI RINNE",
+    fanMark: "🌸🎐",
+    fanName: "鈴の参拝者 #鈴の参拝者からのお便り",
+    img: "img/hananagi.png",
+    greeting: "「そのいいねで、凛とした音色が響くよ」",
+    links: {
+      twitter: "https://x.com/Hanangi_Rinne",
+      reality: "https://reality.app/profile/45a53dd6?adj_t=8ogcewh_z9yhix5",
+      link: "https://lit.link/Hanangi_Rinne"
+    }
   }
 }
 
@@ -232,7 +246,7 @@ export const GEN_ORDER = {
   4: ["rindou", "sato", "ramina"],
   5: ["rinne", "reo", "kei"],
   6: ["yuyu", "rimu"],
-  7: [],
+  7: ["hananagi"],
 }
 
 export const GEN_META = {
