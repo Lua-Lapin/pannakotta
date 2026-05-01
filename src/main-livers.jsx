@@ -5,10 +5,10 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import LiverCard from './components/LiverCard'
 import LiverModal from './components/LiverModal'
-import { LIVERS, GEN_META } from './data/livers'
+import { LIVERS, GEN_META, GEN_ORDER } from './data/livers'
 
 function LiversPage() {
-  const [selectedLiver, setSelectedLiver] = useState(null)
+  const [selectedLiver, setSelectedLiver] = useState(null) // { liver, gen }
   const lastFocusedRef = useRef(null)
 
   const handleClose = useCallback(() => {
@@ -16,18 +16,12 @@ function LiversPage() {
     lastFocusedRef.current?.focus()
   }, [])
 
-  const handleOpen = (liver) => (e) => {
+  const handleOpen = (liver, gen) => (e) => {
     lastFocusedRef.current = e.currentTarget
-    setSelectedLiver(liver)
+    setSelectedLiver({ liver, gen })
   }
 
-  const groups = {}
-  LIVERS.forEach(liver => {
-    if (!groups[liver.gen]) groups[liver.gen] = []
-    groups[liver.gen].push(liver)
-  })
-
-  const genOrder = Object.keys(GEN_META).map(Number)
+  const genOrder = Object.keys(GEN_ORDER).map(Number)
 
   return (
     <>
@@ -53,8 +47,7 @@ function LiversPage() {
 
         {/* 期生ごとのセクション */}
         {genOrder.map((gen, idx) => {
-          const members = groups[gen]
-          if (!members) return null
+          const ids = GEN_ORDER[gen]
           const meta = GEN_META[gen]
           return (
             <Fragment key={gen}>
@@ -70,8 +63,8 @@ function LiversPage() {
                   <div className="w-9 h-[2px] bg-pc-accent mx-auto" />
                 </div>
                 <div className="flex flex-wrap justify-center gap-4 px-6 py-8 max-w-[800px] mx-auto">
-                  {members.map(liver => (
-                    <LiverCard key={liver.name} liver={liver} onClick={handleOpen(liver)} />
+                  {ids.map(id => (
+                    <LiverCard key={id} liver={LIVERS[id]} onClick={handleOpen(LIVERS[id], gen)} />
                   ))}
                 </div>
               </div>
@@ -81,7 +74,7 @@ function LiversPage() {
       </main>
       <Footer />
 
-      {selectedLiver && <LiverModal liver={selectedLiver} onClose={handleClose} />}
+      {selectedLiver && <LiverModal liver={selectedLiver.liver} gen={selectedLiver.gen} onClose={handleClose} />}
     </>
   )
 }
