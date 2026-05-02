@@ -31,7 +31,7 @@ export default function LiverCard({ liver, onClick, showGenBadge = false }) {
             right: '-2px',
             background: '#e8836a',
             color: '#fff',
-            fontSize: '9px',
+            fontSize: '11px',
             fontWeight: 700,
             borderRadius: '20px',
             padding: '2px 5px',
