@@ -73,7 +73,7 @@ function LiversPage() {
           </div>
           <div className="flex flex-wrap justify-center gap-4 px-6 py-8 max-w-[800px] mx-auto">
             {otherLivers.map(liver => (
-              <LiverCard key={liver.id} liver={liver} onClick={handleOpen(liver)} />
+              <LiverCard key={liver.id} liver={liver} onClick={handleOpen(liver)} showGenBadge />
             ))}
           </div>
         </div>

@@ -24,7 +24,7 @@ export default function LiverCard({ liver, onClick, showGenBadge = false }) {
           className="w-20 h-20 rounded-full object-cover bg-pc-border border-2 border-pc-accent2 shadow-[0_3px_8px_rgba(232,131,106,0.15)]"
           onError={(e) => { e.currentTarget.style.visibility = 'hidden' }}
         />
-        {showGenBadge && (
+        {showGenBadge && liver.gen != null && (
           <span style={{
             position: 'absolute',
             bottom: '2px',
