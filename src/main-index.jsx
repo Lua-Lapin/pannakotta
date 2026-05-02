@@ -34,9 +34,9 @@ function RelayBanner() {
   )
 }
 
-function IndexPage() {
-  const gen1Livers = Object.values(LIVERS).filter(l => l.isGen1)
+const gen1Livers = Object.values(LIVERS).filter(l => l.isGen1)
 
+function IndexPage() {
   return (
     <>
       <Nav />
