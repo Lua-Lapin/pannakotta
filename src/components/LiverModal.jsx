@@ -1,8 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { X, Diamond, Link } from 'lucide-react'
-import { GEN_META } from '../data/livers'
 
-export default function LiverModal({ liver, gen, onClose }) {
+export default function LiverModal({ liver, onClose }) {
   const closeRef = useRef(null)
 
   useEffect(() => {
@@ -21,7 +20,7 @@ export default function LiverModal({ liver, gen, onClose }) {
   }, [onClose])
 
   const fanParts = [liver.fanMark, liver.fanName].filter(Boolean)
-  const genLabel = GEN_META[gen]?.title ?? `${gen}期生`
+  const genLabel = `${liver.gen}期生`
   const { twitter, reality, link } = liver.links ?? {}
 
   return (
