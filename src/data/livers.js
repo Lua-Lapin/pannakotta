@@ -236,6 +236,20 @@ export const LIVERS = {
       reality: "https://reality.app/profile/45a53dd6?adj_t=8ogcewh_z9yhix5",
       link: "https://lit.link/Hanangi_Rinne"
     }
+  },
+  rintyosu: {
+    id: "rintyosu",
+    name: "りんちょす",
+    nameEn: "RINTYOSU",
+    fanMark: "🚏❤️‍🔥 ",
+    fanName: "",
+    img: "img/rintyosu.png",
+    greeting: "",
+    links: {
+      twitter: "https://x.com/chosurinn",
+      reality: "https://reality.app/profile/7e1fc364?adj_t=8ogcewh_z9yhix5",
+      link: ""
+    }
   }
 }
 
@@ -246,7 +260,7 @@ export const GEN_ORDER = {
   4: ["rindou", "sato", "ramina"],
   5: ["rinne", "reo", "kei"],
   6: ["yuyu", "rimu"],
-  7: ["hananagi"],
+  7: ["hananagi", "rintyosu"],
 }
 
 export const GEN_META = {
