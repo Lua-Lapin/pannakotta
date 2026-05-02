@@ -1,6 +1,8 @@
 export const LIVERS = {
   lun: {
     id: "lun",
+    gen: 1,
+    isGen1: true,
     name: "るん",
     nameEn: "LUN",
     fanMark: "🌙🧸🥾",
@@ -15,6 +17,8 @@ export const LIVERS = {
   },
   rihito: {
     id: "rihito",
+    gen: 1,
+    isGen1: true,
     name: "りひと",
     nameEn: "RIHITO",
     fanMark: "🍀💫🫧",
@@ -29,6 +33,8 @@ export const LIVERS = {
   },
   chizu: {
     id: "chizu",
+    gen: 1,
+    isGen1: true,
     name: "ちづ",
     nameEn: "CHIZU",
     fanMark: "💀🐾🧀",
@@ -43,6 +49,7 @@ export const LIVERS = {
   },
   yuki: {
     id: "yuki",
+    gen: 2,
     name: "雪",
     nameEn: "YUKI",
     fanMark: "",
@@ -57,6 +64,7 @@ export const LIVERS = {
   },
   juri: {
     id: "juri",
+    gen: 2,
     name: "一藤 ジュリ",
     nameEn: "ICHIFUJI JURI",
     fanMark: "💜🌸",
@@ -71,6 +79,7 @@ export const LIVERS = {
   },
   rin: {
     id: "rin",
+    gen: 2,
     name: "梓 りん",
     nameEn: "AZUSA RIN",
     fanMark: "🍎🍶📕",
@@ -85,6 +94,7 @@ export const LIVERS = {
   },
   kohaku: {
     id: "kohaku",
+    gen: 3,
     name: "琥珀 桃",
     nameEn: "KOHAKU TOU",
     fanMark: "👼🏻🍑₁₀",
@@ -99,6 +109,7 @@ export const LIVERS = {
   },
   me_a: {
     id: "me_a",
+    gen: 3,
     name: "めーあ",
     nameEn: "ME_A",
     fanMark: "🩵🍵🐈‍⬛",
@@ -113,6 +124,7 @@ export const LIVERS = {
   },
   rindou: {
     id: "rindou",
+    gen: 4,
     name: "花筏 竜胆",
     nameEn: "HANAIKADA RINDOU",
     fanMark: "🪷🍃💧",
@@ -127,6 +139,7 @@ export const LIVERS = {
   },
   sato: {
     id: "sato",
+    gen: 4,
     name: "さとう",
     nameEn: "SATO",
     fanMark: "",
@@ -141,6 +154,7 @@ export const LIVERS = {
   },
   ramina: {
     id: "ramina",
+    gen: 4,
     name: "夜廻 葉理",
     nameEn: "YOMAWARI RAMINA",
     fanMark: "🐍🍃",
@@ -155,6 +169,7 @@ export const LIVERS = {
   },
   rinne: {
     id: "rinne",
+    gen: 5,
     name: "夜桜 りんね",
     nameEn: "YOZAKURA RINNE",
     fanMark: "🕶💙",
@@ -169,6 +184,7 @@ export const LIVERS = {
   },
   reo: {
     id: "reo",
+    gen: 5,
     name: "れお",
     nameEn: "REO",
     fanMark: "🐺❤️‍🩹🐾",
@@ -183,6 +199,7 @@ export const LIVERS = {
   },
   kei: {
     id: "kei",
+    gen: 5,
     name: "白神 啓",
     nameEn: "SHIRAKAMI KEI",
     fanMark: "🥀🪽",
@@ -197,6 +214,7 @@ export const LIVERS = {
   },
   yuyu: {
     id: "yuyu",
+    gen: 6,
     name: "ﾕ²",
     nameEn: "YUYU",
     fanMark: "🍥🍓",
@@ -211,6 +229,7 @@ export const LIVERS = {
   },
   rimu: {
     id: "rimu",
+    gen: 6,
     name: "りむ",
     nameEn: "RIMU",
     fanMark: "😈👻",
@@ -225,6 +244,7 @@ export const LIVERS = {
   },
   hananagi: {
     id: "hananagi",
+    gen: 7,
     name: "花巫 鈴音",
     nameEn: "HANANAGI RINNE",
     fanMark: "🌸🎐",
@@ -239,6 +259,7 @@ export const LIVERS = {
   },
   rintyosu: {
     id: "rintyosu",
+    gen: 7,
     name: "りんちょす",
     nameEn: "RINTYOSU",
     fanMark: "🚏❤️‍🔥 ",
@@ -251,24 +272,4 @@ export const LIVERS = {
       link: ""
     }
   }
-}
-
-export const GEN_ORDER = {
-  1: ["lun", "rihito", "chizu"],
-  2: ["yuki", "juri", "rin"],
-  3: ["kohaku", "me_a"],
-  4: ["rindou", "sato", "ramina"],
-  5: ["rinne", "reo", "kei"],
-  6: ["yuyu", "rimu"],
-  7: ["hananagi", "rintyosu"],
-}
-
-export const GEN_META = {
-  1:  { title: "1期生 - 酒カス", sub: "1st Generation" },
-  2:  { title: "2期生 - スナック癒", sub: "2nd Generation" },
-  3:  { title: "3期生", sub: "3rd Generation" },
-  4:  { title: "4期生", sub: "4th Generation" },
-  5:  { title: "5期生", sub: "5th Generation" },
-  6:  { title: "6期生", sub: "6th Generation" },
-  7:  { title: "7期生", sub: "7th Generation" },
 }

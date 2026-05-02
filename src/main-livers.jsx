@@ -1,16 +1,17 @@
 import './index.css'
-import { useState, useRef, Fragment, useCallback } from 'react'
+import { useState, useRef, useCallback } from 'react'
 import { createRoot } from 'react-dom/client'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import LiverCard from './components/LiverCard'
 import LiverModal from './components/LiverModal'
-import { LIVERS, GEN_META, GEN_ORDER } from './data/livers'
+import { LIVERS } from './data/livers'
 
-const genOrder = Object.keys(GEN_ORDER).map(Number)
+const gen1Livers = Object.values(LIVERS).filter(l => l.isGen1)
+const otherLivers = Object.values(LIVERS).filter(l => !l.isGen1)
 
 function LiversPage() {
-  const [selectedLiver, setSelectedLiver] = useState(null) // { liver, gen }
+  const [selectedLiver, setSelectedLiver] = useState(null)
   const lastFocusedRef = useRef(null)
 
   const handleClose = useCallback(() => {
@@ -18,10 +19,10 @@ function LiversPage() {
     lastFocusedRef.current?.focus()
   }, [])
 
-  const handleOpen = useCallback((liver, gen) => (e) => {
+  const handleOpen = (liver) => (e) => {
     lastFocusedRef.current = e.currentTarget
-    setSelectedLiver({ liver, gen })
-  }, [])
+    setSelectedLiver(liver)
+  }
 
   return (
     <>
@@ -45,36 +46,41 @@ function LiversPage() {
           </div>
         </header>
 
-        {/* 期生ごとのセクション */}
-        {genOrder.filter(gen => GEN_ORDER[gen]?.length > 0).map((gen, idx) => {
-          const ids = GEN_ORDER[gen]
-          const meta = GEN_META[gen]
-          return (
-            <Fragment key={gen}>
-              {idx > 0 && (
-                <hr style={{ border: 'none', borderTop: '1.5px solid #f0d8b8', margin: '0 24px' }} />
-              )}
-              <div className="pb-4">
-                <div className="text-center pt-8 px-6 pb-0">
-                  <h2 className="font-serif text-[20px] italic text-pc-text mb-1 max-sm:text-[16px]">
-                    {meta.title}
-                  </h2>
-                  <p className="text-[10px] text-pc-accent tracking-[4px] uppercase mb-3">{meta.sub}</p>
-                  <div className="w-9 h-[2px] bg-pc-accent mx-auto" />
-                </div>
-                <div className="flex flex-wrap justify-center gap-4 px-6 py-8 max-w-[800px] mx-auto">
-                  {ids.map(id => (
-                    <LiverCard key={id} liver={LIVERS[id]} onClick={handleOpen(LIVERS[id], gen)} />
-                  ))}
-                </div>
-              </div>
-            </Fragment>
-          )
-        })}
+        {/* 1期生セクション */}
+        <div className="pb-4">
+          <div className="text-center pt-8 px-6 pb-0">
+            <h2 className="font-serif text-[20px] italic text-pc-text mb-1 max-sm:text-[16px]">
+              1期生
+            </h2>
+            <div className="w-9 h-[2px] bg-pc-accent mx-auto" />
+          </div>
+          <div className="flex flex-wrap justify-center gap-4 px-6 py-8 max-w-[800px] mx-auto">
+            {gen1Livers.map(liver => (
+              <LiverCard key={liver.id} liver={liver} onClick={handleOpen(liver)} />
+            ))}
+          </div>
+        </div>
+
+        <hr style={{ border: 'none', borderTop: '1.5px solid #f0d8b8', margin: '0 24px' }} />
+
+        {/* 所属ライバーセクション */}
+        <div className="pb-4">
+          <div className="text-center pt-8 px-6 pb-0">
+            <h2 className="font-serif text-[20px] italic text-pc-text mb-1 max-sm:text-[16px]">
+              所属ライバー
+            </h2>
+            <div className="w-9 h-[2px] bg-pc-accent mx-auto" />
+          </div>
+          <div className="flex flex-wrap justify-center gap-4 px-6 py-8 max-w-[800px] mx-auto">
+            {otherLivers.map(liver => (
+              <LiverCard key={liver.id} liver={liver} onClick={handleOpen(liver)} showGenBadge />
+            ))}
+          </div>
+        </div>
       </main>
       <Footer />
 
-      {selectedLiver && <LiverModal liver={selectedLiver.liver} gen={selectedLiver.gen} onClose={handleClose} />}
+      {selectedLiver && <LiverModal liver={selectedLiver} onClose={handleClose} />}
     </>
   )
 }
