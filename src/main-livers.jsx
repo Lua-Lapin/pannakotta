@@ -19,10 +19,10 @@ function LiversPage() {
     lastFocusedRef.current?.focus()
   }, [])
 
-  const handleOpen = useCallback((liver) => (e) => {
+  const handleOpen = (liver) => (e) => {
     lastFocusedRef.current = e.currentTarget
     setSelectedLiver(liver)
-  }, [])
+  }
 
   return (
     <>
