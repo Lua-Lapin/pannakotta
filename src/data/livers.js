@@ -212,21 +212,6 @@ export const LIVERS = {
       link: ""
     }
   },
-  yuyu: {
-    id: "yuyu",
-    gen: 6,
-    name: "ﾕ²",
-    nameEn: "YUYU",
-    fanMark: "🍥🍓",
-    fanName: "#愛ノ²",
-    img: "img/yuyu.png",
-    greeting: "「いいね、あんがと」",
-    links: {
-      twitter: "https://x.com/m3j4b",
-      reality: "https://reality.app/profile/0fbd49f4?adj_t=8ogcewh_z9yhix5",
-      link: "https://lit.link/yuyu_2"
-    }
-  },
   rimu: {
     id: "rimu",
     gen: 6,
@@ -262,10 +247,10 @@ export const LIVERS = {
     gen: 7,
     name: "りんちょす",
     nameEn: "RINTYOSU",
-    fanMark: "🚏❤️‍🔥 ",
+    fanMark: "🚏❤️‍🔥",
     fanName: "",
     img: "img/rintyosu.png",
-    greeting: "",
+    greeting: "「あなたのいいねで、りんちょすの気分上昇中だよ」",
     links: {
       twitter: "https://x.com/chosurinn",
       reality: "https://reality.app/profile/7e1fc364?adj_t=8ogcewh_z9yhix5",
