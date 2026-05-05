@@ -69,7 +69,7 @@ export const LIVERS = {
     nameEn: "ICHIFUJI JURI",
     fanMark: "💜🌸",
     fanName: "#二鷹三なすび",
-    img: "img/juri.png",
+    img: "img/juri.png?v=2",
     greeting: "「あなたに藤のご加護がありますように」",
     links: {
       twitter: "https://x.com/Ichifuji_juri",
