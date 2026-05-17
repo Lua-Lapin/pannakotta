@@ -256,5 +256,20 @@ export const LIVERS = {
       reality: "https://reality.app/profile/7e1fc364?adj_t=8ogcewh_z9yhix5",
       link: ""
     }
+  },
+  nochan: {
+    id: "nochan",
+    gen: 7,
+    name: "のちゃん",
+    nameEn: "NOCHAN",
+    fanMark: "",
+    fanName: "",
+    img: "img/nochan.png",
+    greeting: "",
+    links: {
+      twitter: "",
+      reality: "https://reality.app/profile/f4fc9527?adj_t=8ogcewh_z9yhix5",
+      link: ""
+    }
   }
 }
