@@ -11,7 +11,7 @@ export const LIVERS = {
     greeting: "「あなたのいいねで気分るんるん🎵」",
     links: {
       twitter: "https://x.com/Lun222Lun",
-      reality: "https://reality.app/profile/cce744e4?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/cce744e4",
       link: ""
     }
   },
@@ -27,7 +27,7 @@ export const LIVERS = {
     greeting: "「そのいいねでポーション作るね」",
     links: {
       twitter: "https://x.com/ritorito315",
-      reality: "https://reality.app/profile/3684fd87?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/3684fd87",
       link: ""
     }
   },
@@ -43,7 +43,7 @@ export const LIVERS = {
     greeting: "「君のいいねがちづのこころに刺さったよ」",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/ecfd51e0?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/ecfd51e0",
       link: ""
     }
   },
@@ -58,7 +58,7 @@ export const LIVERS = {
     greeting: "「君のいいねで雪が積もるよ」",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/168eb0d5?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/168eb0d5",
       link: ""
     }
   },
@@ -73,7 +73,7 @@ export const LIVERS = {
     greeting: "「あなたに藤のご加護がありますように」",
     links: {
       twitter: "https://x.com/Ichifuji_juri",
-      reality: "https://reality.app/profile/b6cb2e54?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/b6cb2e54",
       link: ""
     }
   },
@@ -88,7 +88,7 @@ export const LIVERS = {
     greeting: "「私と素敵な物語作ろうね」",
     links: {
       twitter: "https://x.com/riniine",
-      reality: "https://reality.app/profile/21100160?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/21100160",
       link: ""
     }
   },
@@ -103,7 +103,7 @@ export const LIVERS = {
     greeting: "「君のいいねにメロついちゃうぞ」",
     links: {
       twitter: "https://x.com/hakutooooooooou",
-      reality: "https://reality.app/profile/b1210d80?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/b1210d80",
       link: ""
     }
   },
@@ -118,7 +118,7 @@ export const LIVERS = {
     greeting: "「お茶と一緒にいただきまーす」",
     links: {
       twitter: "https://x.com/Reality_me_a",
-      reality: "https://reality.app/profile/2a226c35?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/2a226c35",
       link: ""
     }
   },
@@ -133,7 +133,7 @@ export const LIVERS = {
     greeting: "「りーん、りん！君のいいね筏で運ぶね！」",
     links: {
       twitter: "https://x.com/871kada_rindo",
-      reality: "https://reality.app/profile/c1857de2?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/c1857de2",
       link: "https://lit.link/871kadarindo"
     }
   },
@@ -148,7 +148,7 @@ export const LIVERS = {
     greeting: "「いいねありがとう！そのいいね誤タップでねえが？」",
     links: {
       twitter: "https://x.com/bibasato0712",
-      reality: "https://reality.app/profile/8dac3cf7?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/8dac3cf7",
       link: ""
     }
   },
@@ -163,7 +163,7 @@ export const LIVERS = {
     greeting: "「貴方のいいねが私の励みになります！」",
     links: {
       twitter: "https://x.com/canazawa0717",
-      reality: "https://reality.app/profile/8ab45997?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/8ab45997",
       link: ""
     }
   },
@@ -178,7 +178,7 @@ export const LIVERS = {
     greeting: "「あなたのいいね、また巡ってきてね」",
     links: {
       twitter: "https://x.com/Amakawa_REALITY",
-      reality: "https://reality.app/profile/4c957cb4?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/4c957cb4",
       link: ""
     }
   },
@@ -193,7 +193,7 @@ export const LIVERS = {
     greeting: "「いいね押したから、居なくならないよね？」",
     links: {
       twitter: "https://x.com/reo_r_REALITY",
-      reality: "https://reality.app/profile/9695a625?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/9695a625",
       link: "https://lit.link/reo_reo"
     }
   },
@@ -208,7 +208,7 @@ export const LIVERS = {
     greeting: "「いいねありがとうもっと推して啓」",
     links: {
       twitter: "https://x.com/sirakamikei",
-      reality: "https://reality.app/profile/90fe2e63?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/90fe2e63",
       link: ""
     }
   },
@@ -223,7 +223,7 @@ export const LIVERS = {
     greeting: "「フェアリータイプのハートは全てりむがいただきますっ！ありがとうﾈｪﾝ！」",
     links: {
       twitter: "https://x.com/ys7QDuaKuTRFK0y",
-      reality: "https://reality.app/profile/0e4ffc20?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/0e4ffc20",
       link: ""
     }
   },
@@ -238,7 +238,7 @@ export const LIVERS = {
     greeting: "「そのいいねで、凛とした音色が響くよ」",
     links: {
       twitter: "https://x.com/Hanangi_Rinne",
-      reality: "https://reality.app/profile/45a53dd6?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/45a53dd6",
       link: "https://lit.link/Hanangi_Rinne"
     }
   },
@@ -253,7 +253,7 @@ export const LIVERS = {
     greeting: "「あなたのいいねで、りんちょすの気分上昇中だよ」",
     links: {
       twitter: "https://x.com/chosurinn",
-      reality: "https://reality.app/profile/7e1fc364?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/7e1fc364",
       link: ""
     }
   },
@@ -268,7 +268,37 @@ export const LIVERS = {
     greeting: "",
     links: {
       twitter: "",
-      reality: "https://reality.app/profile/f4fc9527?adj_t=8ogcewh_z9yhix5",
+      reality: "https://reality.app/profile/f4fc9527",
+      link: ""
+    }
+  },
+  Y: {
+    id: "Y",
+    gen: 8,
+    name: "Y",
+    nameEn: "Y",
+    fanMark: "💐🤗🎧",
+    fanName: "#Yわい",
+    img: "img/y.png",
+    greeting: "",
+    links: {
+      twitter: "https://x.com/Y_REALITY_263",
+      reality: "https://reality.app/profile/1e7ddc72",
+      link: ""
+    }
+  },
+  ciel: {
+    id: "ciel",
+    gen: 8,
+    name: "シエル",
+    nameEn: "CIEL",
+    fanMark: "🍬🧁🍰👑",
+    fanName: "",
+    img: "img/ciel.png",
+    greeting: "",
+    links: {
+      twitter: "",
+      reality: "https://reality.app/profile/4f364737",
       link: ""
     }
   }
