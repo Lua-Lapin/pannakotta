@@ -30,7 +30,6 @@ function IndexPage() {
             ✦ 🍮 VTUBER OFFICE 🍮 ✦
           </div>
           <h1 className="font-serif text-5xl italic text-pc-text leading-[1.2] mb-3 max-sm:text-[32px]">
-            架空事務所
             <img
               src="img/logo.png"
               alt="ぱんなこった"
