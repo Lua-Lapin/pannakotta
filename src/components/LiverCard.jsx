@@ -39,7 +39,7 @@ export default function LiverCard({ liver, onClick, showGenBadge = false }) {
             whiteSpace: 'nowrap',
             boxShadow: '0 1px 4px rgba(232,131,106,0.4)',
           }}>
-            {liver.gen}期
+            {liver.genLabel ?? `${liver.gen}期`}
           </span>
         )}
       </div>

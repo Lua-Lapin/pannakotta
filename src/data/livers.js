@@ -301,5 +301,21 @@ export const LIVERS = {
       reality: "https://reality.app/profile/4f364737",
       link: ""
     }
+  },
+  pino: {
+    id: "pino",
+    gen: 9,
+    genLabel: "キッチン",
+    name: "PiNoPiNoPiNo",
+    nameEn: "PINOPINOPINO",
+    fanMark: "",
+    fanName: "",
+    img: "img/pino.png",
+    greeting: "",
+    links: {
+      twitter: "https://x.com/PiNoPiNoPiNo_1",
+      reality: "https://reality.app/profile/6b1b67f6",
+      link: ""
+    }
   }
 }
