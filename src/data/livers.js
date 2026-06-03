@@ -311,7 +311,7 @@ export const LIVERS = {
     fanMark: "",
     fanName: "",
     img: "img/pino.png",
-    greeting: "",
+    greeting: "「君のハートピノ、ひとつ貰うね」",
     links: {
       twitter: "https://x.com/PiNoPiNoPiNo_1",
       reality: "https://reality.app/profile/6b1b67f6",
