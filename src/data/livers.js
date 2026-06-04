@@ -170,11 +170,11 @@ export const LIVERS = {
   rinne: {
     id: "rinne",
     gen: 5,
-    name: "夜桜 りんね",
-    nameEn: "YOZAKURA RINNE",
+    name: "りんね",
+    nameEn: "RINNE",
     fanMark: "🕶💙",
     fanName: "#輪廻転生",
-    img: "img/rinne.png",
+    img: "img/rinne.png?v=2",
     greeting: "「あなたのいいね、また巡ってきてね」",
     links: {
       twitter: "https://x.com/Amakawa_REALITY",
