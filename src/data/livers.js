@@ -310,7 +310,7 @@ export const LIVERS = {
     fanMark: "🐈‍⬛ᩚ 🪄🔮",
     fanName: "",
     img: "img/kanz.png",
-    greeting: "",
+    greeting: "「どうもっいいねありがとっうぉー！」",
     links: {
       twitter: "https://x.com/kanz00_",
       reality: "https://reality.app/profile/aa826f55",
