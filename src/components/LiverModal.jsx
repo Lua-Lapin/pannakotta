@@ -20,7 +20,7 @@ export default function LiverModal({ liver, onClose }) {
   }, [onClose])
 
   const fanParts = [liver.fanMark, liver.fanName].filter(Boolean)
-  const genLabel = `${liver.gen}期生`
+  const genLabel = liver.genLabel ?? `${liver.gen}期生`
   const { twitter, reality, link } = liver.links ?? {}
 
   return (
