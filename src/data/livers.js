@@ -302,6 +302,21 @@ export const LIVERS = {
       link: ""
     }
   },
+  kanz: {
+    id: "kanz",
+    gen: 8,
+    name: "猫窓カンズ",
+    nameEn: "NEKOMADOKANZU",
+    fanMark: "🐈‍⬛ᩚ 🪄🔮",
+    fanName: "",
+    img: "img/kanz.png",
+    greeting: "",
+    links: {
+      twitter: "https://x.com/kanz00_",
+      reality: "https://reality.app/profile/aa826f55",
+      link: ""
+    }
+  },
   pino: {
     id: "pino",
     gen: 9,
