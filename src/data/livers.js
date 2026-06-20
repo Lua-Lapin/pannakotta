@@ -317,9 +317,24 @@ export const LIVERS = {
       link: ""
     }
   },
+  riri: {
+    id: "riri",
+    gen: 8,
+    name: "雨雲 莉々",
+    nameEn: "AMAKUMO RIRI",
+    fanMark: "🐰☁️",
+    fanName: "#雨ちゃん",
+    img: "img/riri.png",
+    greeting: "「どうもっいいねありがとっうぉー！」",
+    links: {
+      twitter: "",
+      reality: "https://reality.app/profile/1221e810",
+      link: "https://lit.link/amakumoriri"
+    }
+  },
   pino: {
     id: "pino",
-    gen: 9,
+    gen: 99,
     genLabel: "キッチン",
     name: "PiNoPiNoPiNo",
     nameEn: "PINOPINOPINO",
