@@ -325,7 +325,7 @@ export const LIVERS = {
     fanMark: "🐰☁️",
     fanName: "#雨ちゃん",
     img: "img/riri.png",
-    greeting: "「どうもっいいねありがとっうぉー！」",
+    greeting: "",
     links: {
       twitter: "",
       reality: "https://reality.app/profile/1221e810",
