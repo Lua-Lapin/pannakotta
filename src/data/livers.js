@@ -332,6 +332,21 @@ export const LIVERS = {
       link: "https://lit.link/amakumoriri"
     }
   },
+  yurino: {
+    id: "yurino",
+    gen: 8,
+    name: "百合花 ゆりの",
+    nameEn: "YURIHANA YURINO",
+    fanMark: "🪻🎶",
+    fanName: "#百合の花園",
+    img: "img/yurino.png",
+    greeting: "「君のいいねで僕の心に花が咲いたよ」",
+    links: {
+      twitter: "",
+      reality: "https://reality.app/profile/8fb48594",
+      link: "https://lit.link/1rf0eirq9dhzb20z9mr5ewccu7"
+    }
+  },
   pino: {
     id: "pino",
     gen: 99,
