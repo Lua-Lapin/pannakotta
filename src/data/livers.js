@@ -347,21 +347,6 @@ export const LIVERS = {
       link: "https://lit.link/1rf0eirq9dhzb20z9mr5ewccu7"
     }
   },
-  passion: {
-    id: "passion",
-    gen: 9,
-    name: "Passion 澤田",
-    nameEn: "PASSION SAWADA",
-    fanMark: "🌙🐇💫",
-    fanName: "#月に帰り隊",
-    img: "img/passion.png",
-    greeting: "",
-    links: {
-      twitter: "",
-      reality: "https://reality.app/profile/dcae6755",
-      link: ""
-    }
-  },
   pino: {
     id: "pino",
     gen: 99,
