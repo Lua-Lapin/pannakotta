@@ -92,21 +92,6 @@ export const LIVERS = {
       link: ""
     }
   },
-  kohaku: {
-    id: "kohaku",
-    gen: 3,
-    name: "琥珀 桃",
-    nameEn: "KOHAKU TOU",
-    fanMark: "👼🏻🍑₁₀",
-    fanName: "#おとﾓﾓち",
-    img: "img/kohaku.png",
-    greeting: "「君のいいねにメロついちゃうぞ」",
-    links: {
-      twitter: "https://x.com/hakutooooooooou",
-      reality: "https://reality.app/profile/b1210d80",
-      link: ""
-    }
-  },
   me_a: {
     id: "me_a",
     gen: 3,
