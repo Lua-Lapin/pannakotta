@@ -347,6 +347,21 @@ export const LIVERS = {
       link: "https://lit.link/1rf0eirq9dhzb20z9mr5ewccu7"
     }
   },
+  ito: {
+    id: "ito",
+    gen: 8,
+    name: "瑞緒いと",
+    nameEn: "MIZUO ITO",
+    fanMark: "📚️✒️🧵",
+    fanName: "#書庫の案内人",
+    img: "img/ito.png",
+    greeting: "「本の栞にして大切にするね〜」",
+    links: {
+      twitter: "https://x.com/M1zoito",
+      reality: "https://reality.app/profile/a8b6d223",
+      link: "https://lit.link/mizuoito"
+    }
+  },
   pino: {
     id: "pino",
     gen: 99,
