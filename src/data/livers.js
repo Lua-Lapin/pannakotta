@@ -362,5 +362,21 @@ export const LIVERS = {
       reality: "https://reality.app/profile/6b1b67f6",
       link: ""
     }
+  },
+  yun: {
+    id: "yun",
+    gen: 100,
+    genLabel: "メンダコ",
+    name: "ゆん",
+    nameEn: "YUN",
+    fanMark: "🐙🩵",
+    fanName: "#メンダコとお友達",
+    img: "img/yun.png",
+    greeting: "「いいね貰っちゃった。へへ」",
+    links: {
+      twitter: "https://x.com/m_qar9",
+      reality: "https://reality.app/profile/7662f324",
+      link: ""
+    }
   }
 }
