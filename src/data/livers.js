@@ -104,7 +104,7 @@ export const LIVERS = {
     links: {
       twitter: "https://x.com/871kada_rindo",
       reality: "https://reality.app/profile/c1857de2",
-      link: "https://lit.link/871kadarindo"
+      link: ""
     }
   },
   sato: {
