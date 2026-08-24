@@ -47,21 +47,6 @@ export const LIVERS = {
       link: ""
     }
   },
-  yuki: {
-    id: "yuki",
-    gen: 2,
-    name: "雪",
-    nameEn: "YUKI",
-    fanMark: "",
-    fanName: "",
-    img: "img/yuki.png",
-    greeting: "「君のいいねで雪が積もるよ」",
-    links: {
-      twitter: "",
-      reality: "https://reality.app/profile/168eb0d5",
-      link: ""
-    }
-  },
   juri: {
     id: "juri",
     gen: 2,
@@ -164,36 +149,6 @@ export const LIVERS = {
     links: {
       twitter: "https://x.com/Amakawa_REALITY",
       reality: "https://reality.app/profile/4c957cb4",
-      link: ""
-    }
-  },
-  reo: {
-    id: "reo",
-    gen: 5,
-    name: "れお",
-    nameEn: "REO",
-    fanMark: "🐺❤️‍🩹🐾",
-    fanName: "#レオバニアファミリー",
-    img: "img/reo.png",
-    greeting: "「いいね押したから、居なくならないよね？」",
-    links: {
-      twitter: "https://x.com/reo_r_REALITY",
-      reality: "https://reality.app/profile/9695a625",
-      link: "https://lit.link/reo_reo"
-    }
-  },
-  kei: {
-    id: "kei",
-    gen: 5,
-    name: "白神 啓",
-    nameEn: "SHIRAKAMI KEI",
-    fanMark: "🥀🪽",
-    fanName: "#神ってる啓",
-    img: "img/kei.png",
-    greeting: "「いいねありがとうもっと推して啓」",
-    links: {
-      twitter: "https://x.com/sirakamikei",
-      reality: "https://reality.app/profile/90fe2e63",
       link: ""
     }
   },
