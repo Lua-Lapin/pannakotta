@@ -99,7 +99,7 @@ export const LIVERS = {
     nameEn: "HANAIKADA RINDOU",
     fanMark: "🪷🍃💧",
     fanName: "#花筏どうぶつえん(Zoo民) #花灯籠",
-    img: "img/rindou.png",
+    img: "img/rindou.png?v=2",
     greeting: "「りーん、りん！君のいいね筏で運ぶね！」",
     links: {
       twitter: "https://x.com/871kada_rindo",
