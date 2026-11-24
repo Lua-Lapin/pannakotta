@@ -137,21 +137,6 @@ export const LIVERS = {
       link: ""
     }
   },
-  rinne: {
-    id: "rinne",
-    gen: 5,
-    name: "りんね",
-    nameEn: "RINNE",
-    fanMark: "🕶💙",
-    fanName: "#輪廻転生",
-    img: "img/rinne.png?v=2",
-    greeting: "「あなたのいいね、また巡ってきてね」",
-    links: {
-      twitter: "https://x.com/Amakawa_REALITY",
-      reality: "https://reality.app/profile/4c957cb4",
-      link: ""
-    }
-  },
   rimu: {
     id: "rimu",
     gen: 6,
