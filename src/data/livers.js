@@ -92,6 +92,21 @@ export const LIVERS = {
       link: ""
     }
   },
+  natahiko: {
+    id: "natahiko",
+    gen: 3,
+    name: "海凪 なたひこ",
+    nameEn: "MINAGI NATAHIKO",
+    fanMark: "♨️🗝",
+    fanName: "#風呂の同居人",
+    img: "img/natahiko.png",
+    greeting: "「あなたのいいねお風呂に浮かべとくね」",
+    links: {
+      twitter: "https://x.com/gvvz_n",
+      reality: "https://reality.app/profile/e9689430",
+      link: ""
+    }
+  },
   rindou: {
     id: "rindou",
     gen: 4,
